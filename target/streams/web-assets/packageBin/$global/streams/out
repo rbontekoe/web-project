@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging C:\workspace\web\play-scala-web-starter\target\scala-2.12\web-project_2.12-1.0-SNAPSHOT-web-assets.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	public/images[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\web\play-scala-web-starter\public\images[0m
+[0m[[0mdebug[0m] [0m	public/images\favicon.png[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\web\play-scala-web-starter\public\images\favicon.png[0m
+[0m[[0mdebug[0m] [0m	public/images\favicon.png.md5[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\web\play-scala-web-starter\target\web\digest\images\favicon.png.md5[0m
+[0m[[0mdebug[0m] [0m	public/images\84a01dc6c53f0d2a58a2f7ff9e17a294-favicon.png[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\web\play-scala-web-starter\target\web\digest\images\84a01dc6c53f0d2a58a2f7ff9e17a294-favicon.png[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

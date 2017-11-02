@@ -1,0 +1,19 @@
+@(sunInfo:  services.SunInfo, weatherInfo: services.WeatherInfo, requests: Int)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="shortcut icon" type="image/png"
+           href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+
+    <body>
+        <h1>Hello Play</h1>
+        <div>Sunrise time: @sunInfo.sunrise</div> 
+        <div>Sunset time: @sunInfo.sunset</div>
+        <div>Current temperature: @weatherInfo.temperature</div>
+        <div>Current pressure: @weatherInfo.pressure</div>
+        <div>Current humidity: @weatherInfo.humidity</div>
+        <div>Requests: @requests</div>
+    </body>
+</html>

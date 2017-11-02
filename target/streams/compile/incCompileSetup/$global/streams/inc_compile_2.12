@@ -1,0 +1,1101 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\workspace\web\web-project\target\scala-2.12\classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+26 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$$anonfun$receive$1.class
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$.class
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$GetStats$.class
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$Ping$.class
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$RequestReceived$.class
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\AppApplicationLoader.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\AppComponents.class
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\Application.class
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\StatsFilter.class
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\SunInfo$.class
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\SunInfo.class
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherInfo$.class
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherInfo.class
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\javascript\ReverseApplication.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\javascript\ReverseAssets.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\ReverseApplication.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\ReverseAssets.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes$$anonfun$routes$1.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\router\RoutesPrefix$.class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\router\RoutesPrefix.class
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\views\html\index$.class
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\views\html\index.class
+binary dependencies:
+53 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.softwaremill.macwire\macros_2.12\jars\macros_2.12-2.3.0.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\filters-helpers_2.12\jars\filters-helpers_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ahc-ws_2.12\jars\play-ahc-ws_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\controllers\Application.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\StatsFilter.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\twirl-api_2.12\jars\twirl-api_2.12-1.3.3.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.3.jar
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.2.jar
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\services\SunService.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.2.jar
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar
+C:\workspace\web\web-project\app\services\WeatherService.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\Users\rbont\.ivy2\cache\com.typesafe.play\twirl-api_2.12\jars\twirl-api_2.12-1.3.3.jar
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+17 items
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\app\actors\StatsActor.scala
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\app\controllers\Application.scala
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\app\services\StatsFilter.scala
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\app\services\SunService.scala
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\app\services\WeatherService.scala
+C:\workspace\web\web-project\app\AppLoader.scala -> C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\app\actors\StatsActor.scala
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\app\services\SunService.scala
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\app\services\WeatherService.scala
+C:\workspace\web\web-project\app\controllers\Application.scala -> C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> C:\workspace\web\web-project\app\actors\StatsActor.scala
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\workspace\web\web-project\app\controllers\Application.scala
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\app\services\SunService.scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\app\services\WeatherService.scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\routes.java
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+26 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor$
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor$$anonfun$receive$1
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor$GetStats$
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor$Ping$
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors.StatsActor$RequestReceived$
+C:\workspace\web\web-project\app\AppLoader.scala -> AppApplicationLoader
+C:\workspace\web\web-project\app\AppLoader.scala -> AppComponents
+C:\workspace\web\web-project\app\controllers\Application.scala -> controllers.Application
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> services.StatsFilter
+C:\workspace\web\web-project\app\services\SunService.scala -> services.SunInfo
+C:\workspace\web\web-project\app\services\SunService.scala -> services.SunInfo$
+C:\workspace\web\web-project\app\services\SunService.scala -> services.SunService
+C:\workspace\web\web-project\app\services\WeatherService.scala -> services.WeatherInfo
+C:\workspace\web\web-project\app\services\WeatherService.scala -> services.WeatherInfo$
+C:\workspace\web\web-project\app\services\WeatherService.scala -> services.WeatherService
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseApplication
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseAssets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> controllers.ReverseApplication
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> controllers.ReverseAssets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> router.Routes
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> router.RoutesPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> router.RoutesPrefix$
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> views.html.index
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> views.html.index$
+used names:
+781 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> !
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> +
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> <init>
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> <repeated>
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> ==
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> A1
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> AbstractPartialFunction
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Actor
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> ActorRef
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Any
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> AnyRef
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> B1
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Boolean
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Function1
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> GetStats
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> IndexOutOfBoundsException
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Int
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Iterator
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Nothing
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Object
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Ping
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Predef
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Product
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Receive
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> RequestReceived
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> ScalaActorRef
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> ScalaRunTime
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Serializable
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> StatsActor
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> String
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> StringContext
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> T
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> T0
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> Unit
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actor
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actorRef2Scala
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> actors
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> akka
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> apply
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> asInstanceOf
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> counter
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> counter_=
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> name
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> package
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> path
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> runtime
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> s
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> scala
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> self
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> sender
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> toString
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> typedProductIterator
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> unchecked
+C:\workspace\web\web-project\app\AppLoader.scala -> !
+C:\workspace\web\web-project\app\AppLoader.scala -> <byname>
+C:\workspace\web\web-project\app\AppLoader.scala -> <init>
+C:\workspace\web\web-project\app\AppLoader.scala -> <repeated>
+C:\workspace\web\web-project\app\AppLoader.scala -> A
+C:\workspace\web\web-project\app\AppLoader.scala -> Actor
+C:\workspace\web\web-project\app\AppLoader.scala -> ActorRef
+C:\workspace\web\web-project\app\AppLoader.scala -> ActorSystem
+C:\workspace\web\web-project\app\AppLoader.scala -> AhcWSComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> Any
+C:\workspace\web\web-project\app\AppLoader.scala -> AppApplicationLoader
+C:\workspace\web\web-project\app\AppLoader.scala -> AppComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> Application
+C:\workspace\web\web-project\app\AppLoader.scala -> ApplicationLifecycle
+C:\workspace\web\web-project\app\AppLoader.scala -> ApplicationLoader
+C:\workspace\web\web-project\app\AppLoader.scala -> Assets
+C:\workspace\web\web-project\app\AppLoader.scala -> AssetsComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> BuiltInComponentsFromContext
+C:\workspace\web\web-project\app\AppLoader.scala -> Class
+C:\workspace\web\web-project\app\AppLoader.scala -> ClassLoader
+C:\workspace\web\web-project\app\AppLoader.scala -> ClassTag
+C:\workspace\web\web-project\app\AppLoader.scala -> Context
+C:\workspace\web\web-project\app\AppLoader.scala -> ControllerComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> DefaultActionBuilder
+C:\workspace\web\web-project\app\AppLoader.scala -> DefaultControllerComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> Environment
+C:\workspace\web\web-project\app\AppLoader.scala -> ExecutionContext
+C:\workspace\web\web-project\app\AppLoader.scala -> FileMimeTypes
+C:\workspace\web\web-project\app\AppLoader.scala -> Filter
+C:\workspace\web\web-project\app\AppLoader.scala -> Function0
+C:\workspace\web\web-project\app\AppLoader.scala -> Function1
+C:\workspace\web\web-project\app\AppLoader.scala -> Future
+C:\workspace\web\web-project\app\AppLoader.scala -> HttpErrorHandler
+C:\workspace\web\web-project\app\AppLoader.scala -> HttpFiltersComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> Langs
+C:\workspace\web\web-project\app\AppLoader.scala -> Logger
+C:\workspace\web\web-project\app\AppLoader.scala -> LoggerConfigurator
+C:\workspace\web\web-project\app\AppLoader.scala -> MarkerContext
+C:\workspace\web\web-project\app\AppLoader.scala -> Materializer
+C:\workspace\web\web-project\app\AppLoader.scala -> MessagesApi
+C:\workspace\web\web-project\app\AppLoader.scala -> NoMarker
+C:\workspace\web\web-project\app\AppLoader.scala -> Nothing
+C:\workspace\web\web-project\app\AppLoader.scala -> Object
+C:\workspace\web\web-project\app\AppLoader.scala -> Option
+C:\workspace\web\web-project\app\AppLoader.scala -> Ping
+C:\workspace\web\web-project\app\AppLoader.scala -> PlayBodyParsers
+C:\workspace\web\web-project\app\AppLoader.scala -> Predef
+C:\workspace\web\web-project\app\AppLoader.scala -> Props
+C:\workspace\web\web-project\app\AppLoader.scala -> Router
+C:\workspace\web\web-project\app\AppLoader.scala -> Routes
+C:\workspace\web\web-project\app\AppLoader.scala -> ScalaActorRef
+C:\workspace\web\web-project\app\AppLoader.scala -> Seq
+C:\workspace\web\web-project\app\AppLoader.scala -> StatsActor
+C:\workspace\web\web-project\app\AppLoader.scala -> StatsFilter
+C:\workspace\web\web-project\app\AppLoader.scala -> String
+C:\workspace\web\web-project\app\AppLoader.scala -> SunService
+C:\workspace\web\web-project\app\AppLoader.scala -> T
+C:\workspace\web\web-project\app\AppLoader.scala -> U
+C:\workspace\web\web-project\app\AppLoader.scala -> Unit
+C:\workspace\web\web-project\app\AppLoader.scala -> WSClient
+C:\workspace\web\web-project\app\AppLoader.scala -> WeatherService
+C:\workspace\web\web-project\app\AppLoader.scala -> _$1
+C:\workspace\web\web-project\app\AppLoader.scala -> _$7
+C:\workspace\web\web-project\app\AppLoader.scala -> actor
+C:\workspace\web\web-project\app\AppLoader.scala -> actorOf
+C:\workspace\web\web-project\app\AppLoader.scala -> actorRef2Scala
+C:\workspace\web\web-project\app\AppLoader.scala -> actorSystem
+C:\workspace\web\web-project\app\AppLoader.scala -> actors
+C:\workspace\web\web-project\app\AppLoader.scala -> addStopHook
+C:\workspace\web\web-project\app\AppLoader.scala -> ahc
+C:\workspace\web\web-project\app\AppLoader.scala -> akka
+C:\workspace\web\web-project\app\AppLoader.scala -> api
+C:\workspace\web\web-project\app\AppLoader.scala -> application
+C:\workspace\web\web-project\app\AppLoader.scala -> applicationController
+C:\workspace\web\web-project\app\AppLoader.scala -> applicationLifecycle
+C:\workspace\web\web-project\app\AppLoader.scala -> apply
+C:\workspace\web\web-project\app\AppLoader.scala -> assets
+C:\workspace\web\web-project\app\AppLoader.scala -> cfg
+C:\workspace\web\web-project\app\AppLoader.scala -> classLoader
+C:\workspace\web\web-project\app\AppLoader.scala -> collection
+C:\workspace\web\web-project\app\AppLoader.scala -> com
+C:\workspace\web\web-project\app\AppLoader.scala -> concurrent
+C:\workspace\web\web-project\app\AppLoader.scala -> configure
+C:\workspace\web\web-project\app\AppLoader.scala -> context
+C:\workspace\web\web-project\app\AppLoader.scala -> controllerComponents
+C:\workspace\web\web-project\app\AppLoader.scala -> controllers
+C:\workspace\web\web-project\app\AppLoader.scala -> defaultActionBuilder
+C:\workspace\web\web-project\app\AppLoader.scala -> environment
+C:\workspace\web\web-project\app\AppLoader.scala -> executionContext
+C:\workspace\web\web-project\app\AppLoader.scala -> fileMimeTypes
+C:\workspace\web\web-project\app\AppLoader.scala -> filters
+C:\workspace\web\web-project\app\AppLoader.scala -> foreach
+C:\workspace\web\web-project\app\AppLoader.scala -> httpErrorHandler
+C:\workspace\web\web-project\app\AppLoader.scala -> info
+C:\workspace\web\web-project\app\AppLoader.scala -> langs
+C:\workspace\web\web-project\app\AppLoader.scala -> libs
+C:\workspace\web\web-project\app\AppLoader.scala -> macwire
+C:\workspace\web\web-project\app\AppLoader.scala -> materializeClassTag
+C:\workspace\web\web-project\app\AppLoader.scala -> materializer
+C:\workspace\web\web-project\app\AppLoader.scala -> messagesApi
+C:\workspace\web\web-project\app\AppLoader.scala -> mvc
+C:\workspace\web\web-project\app\AppLoader.scala -> name
+C:\workspace\web\web-project\app\AppLoader.scala -> onStart
+C:\workspace\web\web-project\app\AppLoader.scala -> package
+C:\workspace\web\web-project\app\AppLoader.scala -> play
+C:\workspace\web\web-project\app\AppLoader.scala -> playBodyParsers
+C:\workspace\web\web-project\app\AppLoader.scala -> prefix
+C:\workspace\web\web-project\app\AppLoader.scala -> qual$7
+C:\workspace\web\web-project\app\AppLoader.scala -> reflect
+C:\workspace\web\web-project\app\AppLoader.scala -> router
+C:\workspace\web\web-project\app\AppLoader.scala -> routing
+C:\workspace\web\web-project\app\AppLoader.scala -> scala
+C:\workspace\web\web-project\app\AppLoader.scala -> services
+C:\workspace\web\web-project\app\AppLoader.scala -> softwaremill
+C:\workspace\web\web-project\app\AppLoader.scala -> statsActor
+C:\workspace\web\web-project\app\AppLoader.scala -> statsFilter
+C:\workspace\web\web-project\app\AppLoader.scala -> successful
+C:\workspace\web\web-project\app\AppLoader.scala -> sunService
+C:\workspace\web\web-project\app\AppLoader.scala -> weatherService
+C:\workspace\web\web-project\app\AppLoader.scala -> wire
+C:\workspace\web\web-project\app\AppLoader.scala -> ws
+C:\workspace\web\web-project\app\AppLoader.scala -> wsClient
+C:\workspace\web\web-project\app\AppLoader.scala -> x$15
+C:\workspace\web\web-project\app\AppLoader.scala -> x$16
+C:\workspace\web\web-project\app\controllers\Application.scala -> <byname>
+C:\workspace\web\web-project\app\controllers\Application.scala -> <init>
+C:\workspace\web\web-project\app\controllers\Application.scala -> ?
+C:\workspace\web\web-project\app\controllers\Application.scala -> AbstractController
+C:\workspace\web\web-project\app\controllers\Application.scala -> Action
+C:\workspace\web\web-project\app\controllers\Application.scala -> ActionBuilder
+C:\workspace\web\web-project\app\controllers\Application.scala -> ActorRef
+C:\workspace\web\web-project\app\controllers\Application.scala -> ActorSelection
+C:\workspace\web\web-project\app\controllers\Application.scala -> ActorSystem
+C:\workspace\web\web-project\app\controllers\Application.scala -> Any
+C:\workspace\web\web-project\app\controllers\Application.scala -> AnyContent
+C:\workspace\web\web-project\app\controllers\Application.scala -> Appendable
+C:\workspace\web\web-project\app\controllers\Application.scala -> Application
+C:\workspace\web\web-project\app\controllers\Application.scala -> AskableActorSelection
+C:\workspace\web\web-project\app\controllers\Application.scala -> C
+C:\workspace\web\web-project\app\controllers\Application.scala -> ClassTag
+C:\workspace\web\web-project\app\controllers\Application.scala -> Codec
+C:\workspace\web\web-project\app\controllers\Application.scala -> Content
+C:\workspace\web\web-project\app\controllers\Application.scala -> ContentTypeOf
+C:\workspace\web\web-project\app\controllers\Application.scala -> ControllerComponents
+C:\workspace\web\web-project\app\controllers\Application.scala -> Double
+C:\workspace\web\web-project\app\controllers\Application.scala -> ExecutionContext
+C:\workspace\web\web-project\app\controllers\Application.scala -> Function1
+C:\workspace\web\web-project\app\controllers\Application.scala -> Future
+C:\workspace\web\web-project\app\controllers\Application.scala -> GetStats
+C:\workspace\web\web-project\app\controllers\Application.scala -> Html
+C:\workspace\web\web-project\app\controllers\Application.scala -> HtmlFormat
+C:\workspace\web\web-project\app\controllers\Application.scala -> Implicits
+C:\workspace\web\web-project\app\controllers\Application.scala -> Int
+C:\workspace\web\web-project\app\controllers\Application.scala -> Long
+C:\workspace\web\web-project\app\controllers\Application.scala -> Nothing
+C:\workspace\web\web-project\app\controllers\Application.scala -> Ok
+C:\workspace\web\web-project\app\controllers\Application.scala -> Predef
+C:\workspace\web\web-project\app\controllers\Application.scala -> Request
+C:\workspace\web\web-project\app\controllers\Application.scala -> Result
+C:\workspace\web\web-project\app\controllers\Application.scala -> S
+C:\workspace\web\web-project\app\controllers\Application.scala -> StatsActor
+C:\workspace\web\web-project\app\controllers\Application.scala -> Status
+C:\workspace\web\web-project\app\controllers\Application.scala -> String
+C:\workspace\web\web-project\app\controllers\Application.scala -> SunInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> SunService
+C:\workspace\web\web-project\app\controllers\Application.scala -> T
+C:\workspace\web\web-project\app\controllers\Application.scala -> TimeUnit
+C:\workspace\web\web-project\app\controllers\Application.scala -> Timeout
+C:\workspace\web\web-project\app\controllers\Application.scala -> WSClient
+C:\workspace\web\web-project\app\controllers\Application.scala -> WeatherInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> WeatherService
+C:\workspace\web\web-project\app\controllers\Application.scala -> Writeable
+C:\workspace\web\web-project\app\controllers\Application.scala -> actor
+C:\workspace\web\web-project\app\controllers\Application.scala -> actorSelection
+C:\workspace\web\web-project\app\controllers\Application.scala -> actorSystem
+C:\workspace\web\web-project\app\controllers\Application.scala -> actors
+C:\workspace\web\web-project\app\controllers\Application.scala -> akka
+C:\workspace\web\web-project\app\controllers\Application.scala -> api
+C:\workspace\web\web-project\app\controllers\Application.scala -> apply
+C:\workspace\web\web-project\app\controllers\Application.scala -> ask
+C:\workspace\web\web-project\app\controllers\Application.scala -> async
+C:\workspace\web\web-project\app\controllers\Application.scala -> components
+C:\workspace\web\web-project\app\controllers\Application.scala -> concurrent
+C:\workspace\web\web-project\app\controllers\Application.scala -> contentTypeOf_Html
+C:\workspace\web\web-project\app\controllers\Application.scala -> controllers
+C:\workspace\web\web-project\app\controllers\Application.scala -> flatMap
+C:\workspace\web\web-project\app\controllers\Application.scala -> getSunInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> getWeatherInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> global
+C:\workspace\web\web-project\app\controllers\Application.scala -> html
+C:\workspace\web\web-project\app\controllers\Application.scala -> http
+C:\workspace\web\web-project\app\controllers\Application.scala -> index
+C:\workspace\web\web-project\app\controllers\Application.scala -> inject
+C:\workspace\web\web-project\app\controllers\Application.scala -> java
+C:\workspace\web\web-project\app\controllers\Application.scala -> javax
+C:\workspace\web\web-project\app\controllers\Application.scala -> libs
+C:\workspace\web\web-project\app\controllers\Application.scala -> map
+C:\workspace\web\web-project\app\controllers\Application.scala -> mapTo
+C:\workspace\web\web-project\app\controllers\Application.scala -> materializeClassTag
+C:\workspace\web\web-project\app\controllers\Application.scala -> mvc
+C:\workspace\web\web-project\app\controllers\Application.scala -> package
+C:\workspace\web\web-project\app\controllers\Application.scala -> path
+C:\workspace\web\web-project\app\controllers\Application.scala -> pattern
+C:\workspace\web\web-project\app\controllers\Application.scala -> play
+C:\workspace\web\web-project\app\controllers\Application.scala -> qual$1
+C:\workspace\web\web-project\app\controllers\Application.scala -> reflect
+C:\workspace\web\web-project\app\controllers\Application.scala -> requests
+C:\workspace\web\web-project\app\controllers\Application.scala -> requestsF
+C:\workspace\web\web-project\app\controllers\Application.scala -> scala
+C:\workspace\web\web-project\app\controllers\Application.scala -> services
+C:\workspace\web\web-project\app\controllers\Application.scala -> sunInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> sunInfoF
+C:\workspace\web\web-project\app\controllers\Application.scala -> sunService
+C:\workspace\web\web-project\app\controllers\Application.scala -> timeout
+C:\workspace\web\web-project\app\controllers\Application.scala -> utf_8
+C:\workspace\web\web-project\app\controllers\Application.scala -> util
+C:\workspace\web\web-project\app\controllers\Application.scala -> views
+C:\workspace\web\web-project\app\controllers\Application.scala -> weatherInfo
+C:\workspace\web\web-project\app\controllers\Application.scala -> weatherInfoF
+C:\workspace\web\web-project\app\controllers\Application.scala -> weatherService
+C:\workspace\web\web-project\app\controllers\Application.scala -> writeableOf_Content
+C:\workspace\web\web-project\app\controllers\Application.scala -> ws
+C:\workspace\web\web-project\app\controllers\Application.scala -> x$1
+C:\workspace\web\web-project\app\controllers\Application.scala -> x$2
+C:\workspace\web\web-project\app\controllers\Application.scala -> x$3
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> !
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> <init>
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> <repeated>
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> ActorRef
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> ActorSelection
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> ActorSystem
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Any
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Filter
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Function1
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Future
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Logger
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Materializer
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Object
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Predef
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> RequestHeader
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> RequestReceived
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Result
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> ScalaActorSelection
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> StatsActor
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> StatsFilter
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> String
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> StringContext
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> Unit
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> _root_
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> actor
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> actorSelection
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> actorSystem
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> actors
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> akka
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> api
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> apply
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> concurrent
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> header
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> info
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> mat
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> mvc
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> nextFilter
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> path
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> play
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> qual$1
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> s
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> scala
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> services
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> stream
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> toScala
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> x$1
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> x$2
+C:\workspace\web\web-project\app\services\SunService.scala -> &&
+C:\workspace\web\web-project\app\services\SunService.scala -> +
+C:\workspace\web\web-project\app\services\SunService.scala -> <init>
+C:\workspace\web\web-project\app\services\SunService.scala -> ==
+C:\workspace\web\web-project\app\services\SunService.scala -> A
+C:\workspace\web\web-project\app\services\SunService.scala -> AbstractFunction2
+C:\workspace\web\web-project\app\services\SunService.scala -> Any
+C:\workspace\web\web-project\app\services\SunService.scala -> AnyRef
+C:\workspace\web\web-project\app\services\SunService.scala -> Boolean
+C:\workspace\web\web-project\app\services\SunService.scala -> CharSequence
+C:\workspace\web\web-project\app\services\SunService.scala -> DateTimeFormatter
+C:\workspace\web\web-project\app\services\SunService.scala -> Double
+C:\workspace\web\web-project\app\services\SunService.scala -> ExecutionContext
+C:\workspace\web\web-project\app\services\SunService.scala -> Function1
+C:\workspace\web\web-project\app\services\SunService.scala -> Future
+C:\workspace\web\web-project\app\services\SunService.scala -> Implicits
+C:\workspace\web\web-project\app\services\SunService.scala -> IndexOutOfBoundsException
+C:\workspace\web\web-project\app\services\SunService.scala -> Int
+C:\workspace\web\web-project\app\services\SunService.scala -> Iterator
+C:\workspace\web\web-project\app\services\SunService.scala -> JsLookup
+C:\workspace\web\web-project\app\services\SunService.scala -> JsLookupResult
+C:\workspace\web\web-project\app\services\SunService.scala -> JsValue
+C:\workspace\web\web-project\app\services\SunService.scala -> None
+C:\workspace\web\web-project\app\services\SunService.scala -> Nothing
+C:\workspace\web\web-project\app\services\SunService.scala -> Object
+C:\workspace\web\web-project\app\services\SunService.scala -> Option
+C:\workspace\web\web-project\app\services\SunService.scala -> Predef
+C:\workspace\web\web-project\app\services\SunService.scala -> Product
+C:\workspace\web\web-project\app\services\SunService.scala -> Reads
+C:\workspace\web\web-project\app\services\SunService.scala -> S
+C:\workspace\web\web-project\app\services\SunService.scala -> ScalaRunTime
+C:\workspace\web\web-project\app\services\SunService.scala -> Serializable
+C:\workspace\web\web-project\app\services\SunService.scala -> Some
+C:\workspace\web\web-project\app\services\SunService.scala -> String
+C:\workspace\web\web-project\app\services\SunService.scala -> StringReads
+C:\workspace\web\web-project\app\services\SunService.scala -> SunInfo
+C:\workspace\web\web-project\app\services\SunService.scala -> SunService
+C:\workspace\web\web-project\app\services\SunService.scala -> T
+C:\workspace\web\web-project\app\services\SunService.scala -> T0
+C:\workspace\web\web-project\app\services\SunService.scala -> T1
+C:\workspace\web\web-project\app\services\SunService.scala -> T2
+C:\workspace\web\web-project\app\services\SunService.scala -> Tuple2
+C:\workspace\web\web-project\app\services\SunService.scala -> WSClient
+C:\workspace\web\web-project\app\services\SunService.scala -> WSRequest
+C:\workspace\web\web-project\app\services\SunService.scala -> WSResponse
+C:\workspace\web\web-project\app\services\SunService.scala -> ZoneId
+C:\workspace\web\web-project\app\services\SunService.scala -> ZonedDateTime
+C:\workspace\web\web-project\app\services\SunService.scala -> \
+C:\workspace\web\web-project\app\services\SunService.scala -> _hashCode
+C:\workspace\web\web-project\app\services\SunService.scala -> _root_
+C:\workspace\web\web-project\app\services\SunService.scala -> _toString
+C:\workspace\web\web-project\app\services\SunService.scala -> api
+C:\workspace\web\web-project\app\services\SunService.scala -> as
+C:\workspace\web\web-project\app\services\SunService.scala -> asInstanceOf
+C:\workspace\web\web-project\app\services\SunService.scala -> concurrent
+C:\workspace\web\web-project\app\services\SunService.scala -> eq
+C:\workspace\web\web-project\app\services\SunService.scala -> format
+C:\workspace\web\web-project\app\services\SunService.scala -> formatter
+C:\workspace\web\web-project\app\services\SunService.scala -> get
+C:\workspace\web\web-project\app\services\SunService.scala -> global
+C:\workspace\web\web-project\app\services\SunService.scala -> isInstanceOf
+C:\workspace\web\web-project\app\services\SunService.scala -> java
+C:\workspace\web\web-project\app\services\SunService.scala -> jsLookupResultToJsLookup
+C:\workspace\web\web-project\app\services\SunService.scala -> jsValueToJsLookup
+C:\workspace\web\web-project\app\services\SunService.scala -> json
+C:\workspace\web\web-project\app\services\SunService.scala -> lat
+C:\workspace\web\web-project\app\services\SunService.scala -> libs
+C:\workspace\web\web-project\app\services\SunService.scala -> lon
+C:\workspace\web\web-project\app\services\SunService.scala -> map
+C:\workspace\web\web-project\app\services\SunService.scala -> of
+C:\workspace\web\web-project\app\services\SunService.scala -> ofPattern
+C:\workspace\web\web-project\app\services\SunService.scala -> package
+C:\workspace\web\web-project\app\services\SunService.scala -> parse
+C:\workspace\web\web-project\app\services\SunService.scala -> play
+C:\workspace\web\web-project\app\services\SunService.scala -> response
+C:\workspace\web\web-project\app\services\SunService.scala -> responseF
+C:\workspace\web\web-project\app\services\SunService.scala -> runtime
+C:\workspace\web\web-project\app\services\SunService.scala -> scala
+C:\workspace\web\web-project\app\services\SunService.scala -> services
+C:\workspace\web\web-project\app\services\SunService.scala -> sunInfo
+C:\workspace\web\web-project\app\services\SunService.scala -> sunrise
+C:\workspace\web\web-project\app\services\SunService.scala -> sunriseTime
+C:\workspace\web\web-project\app\services\SunService.scala -> sunriseTimeStr
+C:\workspace\web\web-project\app\services\SunService.scala -> sunset
+C:\workspace\web\web-project\app\services\SunService.scala -> sunsetTime
+C:\workspace\web\web-project\app\services\SunService.scala -> sunsetTimeStr
+C:\workspace\web\web-project\app\services\SunService.scala -> time
+C:\workspace\web\web-project\app\services\SunService.scala -> toString
+C:\workspace\web\web-project\app\services\SunService.scala -> typedProductIterator
+C:\workspace\web\web-project\app\services\SunService.scala -> url
+C:\workspace\web\web-project\app\services\SunService.scala -> withZone
+C:\workspace\web\web-project\app\services\SunService.scala -> ws
+C:\workspace\web\web-project\app\services\SunService.scala -> wsClient
+C:\workspace\web\web-project\app\services\SunService.scala -> ||
+C:\workspace\web\web-project\app\services\WeatherService.scala -> &&
+C:\workspace\web\web-project\app\services\WeatherService.scala -> <init>
+C:\workspace\web\web-project\app\services\WeatherService.scala -> ==
+C:\workspace\web\web-project\app\services\WeatherService.scala -> A
+C:\workspace\web\web-project\app\services\WeatherService.scala -> AbstractFunction3
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Any
+C:\workspace\web\web-project\app\services\WeatherService.scala -> AnyRef
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Boolean
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Double
+C:\workspace\web\web-project\app\services\WeatherService.scala -> DoubleReads
+C:\workspace\web\web-project\app\services\WeatherService.scala -> ExecutionContext
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Function1
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Future
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Implicits
+C:\workspace\web\web-project\app\services\WeatherService.scala -> IndexOutOfBoundsException
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Int
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Iterator
+C:\workspace\web\web-project\app\services\WeatherService.scala -> JsLookup
+C:\workspace\web\web-project\app\services\WeatherService.scala -> JsLookupResult
+C:\workspace\web\web-project\app\services\WeatherService.scala -> JsValue
+C:\workspace\web\web-project\app\services\WeatherService.scala -> None
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Nothing
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Object
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Option
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Predef
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Product
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Reads
+C:\workspace\web\web-project\app\services\WeatherService.scala -> S
+C:\workspace\web\web-project\app\services\WeatherService.scala -> ScalaRunTime
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Serializable
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Some
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Statics
+C:\workspace\web\web-project\app\services\WeatherService.scala -> String
+C:\workspace\web\web-project\app\services\WeatherService.scala -> T
+C:\workspace\web\web-project\app\services\WeatherService.scala -> T0
+C:\workspace\web\web-project\app\services\WeatherService.scala -> T1
+C:\workspace\web\web-project\app\services\WeatherService.scala -> T2
+C:\workspace\web\web-project\app\services\WeatherService.scala -> T3
+C:\workspace\web\web-project\app\services\WeatherService.scala -> Tuple3
+C:\workspace\web\web-project\app\services\WeatherService.scala -> WSClient
+C:\workspace\web\web-project\app\services\WeatherService.scala -> WSRequest
+C:\workspace\web\web-project\app\services\WeatherService.scala -> WSResponse
+C:\workspace\web\web-project\app\services\WeatherService.scala -> WeatherInfo
+C:\workspace\web\web-project\app\services\WeatherService.scala -> WeatherService
+C:\workspace\web\web-project\app\services\WeatherService.scala -> \
+C:\workspace\web\web-project\app\services\WeatherService.scala -> _root_
+C:\workspace\web\web-project\app\services\WeatherService.scala -> _toString
+C:\workspace\web\web-project\app\services\WeatherService.scala -> api
+C:\workspace\web\web-project\app\services\WeatherService.scala -> as
+C:\workspace\web\web-project\app\services\WeatherService.scala -> asInstanceOf
+C:\workspace\web\web-project\app\services\WeatherService.scala -> concurrent
+C:\workspace\web\web-project\app\services\WeatherService.scala -> doubleHash
+C:\workspace\web\web-project\app\services\WeatherService.scala -> eq
+C:\workspace\web\web-project\app\services\WeatherService.scala -> finalizeHash
+C:\workspace\web\web-project\app\services\WeatherService.scala -> get
+C:\workspace\web\web-project\app\services\WeatherService.scala -> global
+C:\workspace\web\web-project\app\services\WeatherService.scala -> humidity
+C:\workspace\web\web-project\app\services\WeatherService.scala -> isInstanceOf
+C:\workspace\web\web-project\app\services\WeatherService.scala -> jsLookupResultToJsLookup
+C:\workspace\web\web-project\app\services\WeatherService.scala -> jsValueToJsLookup
+C:\workspace\web\web-project\app\services\WeatherService.scala -> json
+C:\workspace\web\web-project\app\services\WeatherService.scala -> libs
+C:\workspace\web\web-project\app\services\WeatherService.scala -> map
+C:\workspace\web\web-project\app\services\WeatherService.scala -> mix
+C:\workspace\web\web-project\app\services\WeatherService.scala -> package
+C:\workspace\web\web-project\app\services\WeatherService.scala -> play
+C:\workspace\web\web-project\app\services\WeatherService.scala -> pressure
+C:\workspace\web\web-project\app\services\WeatherService.scala -> runtime
+C:\workspace\web\web-project\app\services\WeatherService.scala -> scala
+C:\workspace\web\web-project\app\services\WeatherService.scala -> services
+C:\workspace\web\web-project\app\services\WeatherService.scala -> temperature
+C:\workspace\web\web-project\app\services\WeatherService.scala -> toString
+C:\workspace\web\web-project\app\services\WeatherService.scala -> typedProductIterator
+C:\workspace\web\web-project\app\services\WeatherService.scala -> url
+C:\workspace\web\web-project\app\services\WeatherService.scala -> weatherInfo
+C:\workspace\web\web-project\app\services\WeatherService.scala -> weatherResonseF
+C:\workspace\web\web-project\app\services\WeatherService.scala -> weatherResponse
+C:\workspace\web\web-project\app\services\WeatherService.scala -> ws
+C:\workspace\web\web-project\app\services\WeatherService.scala -> wsClient
+C:\workspace\web\web-project\app\services\WeatherService.scala -> ||
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> +
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> <byname>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> <init>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> <refinement>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Any
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> AnyRef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Asset
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Assets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Boolean
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Nothing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Object
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> PathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Predef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseApplication
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseAssets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseRouteContext
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Right
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> String
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> T
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _defaultPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _prefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _root_
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> api
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> assetPathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> empty
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> endsWith
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> implicitly
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> javascript
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> javascriptUnbind
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> mvc
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> play
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> routing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> scala
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> +
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> <byname>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> <init>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> <refinement>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> <repeated>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> A
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Any
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> AnyRef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Asset
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Assets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> B
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Boolean
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Call
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Map
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Nothing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Object
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> PathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Predef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> ReverseApplication
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> ReverseAssets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> ReverseRouteContext
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Right
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> String
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> T
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> T1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> T2
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> Tuple2
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> _defaultPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> _prefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> _root_
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> _rrc
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> api
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> apply
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> assetPathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> controllers
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> core
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> endsWith
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> file
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> implicitly
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> mvc
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> play
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> routing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> scala
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> unbind
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> +
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> ++
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> :+
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> <byname>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> <init>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> <refinement>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> <repeated>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> ?0
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> A
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> A1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> A2
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> AbstractPartialFunction
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Action
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Any
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> AnyContent
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> AnyRef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Application
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Application_1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Asset
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Assets
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Assets_0
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> B
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> B1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Boolean
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> CanBuildFrom
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Class
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> ClassLoader
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Coll
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> DynamicPart
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Either
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Function1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Function2
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> GenTraversableOnce
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> GeneratedRouter
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Handler
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> HandlerDef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> HandlerInvoker
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> HandlerInvokerFactory
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> HttpErrorHandler
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> List
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Nil
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> None
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Nothing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Object
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Option
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Param
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> ParamsExtractor
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> PartialFunction
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> PathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> PathPart
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> PathPattern
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Predef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Product
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> RequestHeader
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> ReverseRouteContext
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Right
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Route
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> RouteParams
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Routes
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> RoutesPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Seq
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Serializable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> StaticPart
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> String
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> T
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> T0
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> T1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> T2
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> T3
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> That
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Tuple3
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> Unit
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> _$1
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> api
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> apply
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> asInstanceOf
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> assetPathBindable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> call
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> canBuildFrom
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> collection
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> controllers
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> controllers_Application_index0_invoker
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> controllers_Application_index0_route
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> controllers_Assets_versioned1_invoker
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> controllers_Assets_versioned1_route
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> core
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> createInvoker
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> defaultPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> e
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> empty
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> endsWith
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> errorHandler
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> fakeValue
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> file
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> foldLeft
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> fromPath
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> get
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> getClass
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> getClassLoader
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> http
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> immutable
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> index
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> isEmpty
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> isInstanceOf
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> mvc
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> package
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> params
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> passThrough
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> path
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> play
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> prefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> router
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> routing
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> s
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> scala
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> setPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> unapply
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> unary_!
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> unchecked
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> versioned
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> <init>
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> AnyRef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> Function0
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> Object
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> Predef
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> RoutesPrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> String
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> Unit
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> _prefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> _prefix_=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> byNamePrefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> p
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> prefix
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> router
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> <init>
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> <repeated>
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> A
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Any
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> AnyVal
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Appendable
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Asset
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Assets
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> BaseScalaTemplate
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Call
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Class
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> ClassTag
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Double
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Format
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Function3
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Html
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> HtmlFormat
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Int
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> JavaScript
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Nothing
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> PlayMagic
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Predef
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> ReverseAssets
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Seq
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> String
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> SunInfo
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> T
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Template3
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> TwirlFeatureImports
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> TwirlHelperImports
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Txt
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> WeatherInfo
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> Xml
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> _$7
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> _display_
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> _root_
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> api
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> apply
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> collection
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> controllers
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> data
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> format
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> html
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> humidity
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> i18n
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> index
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> materializeClassTag
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> models
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> mvc
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> package
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> play
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> pressure
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> raw
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> reflect
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> requests
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> routes
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> scala
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> services
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> string2Asset
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> sunInfo
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> sunrise
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> sunset
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> temperature
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> templates
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> twirl
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> versioned
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> views
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> weatherInfo
+product stamps:
+26 items
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$$anonfun$receive$1.class -> lastModified(1509617774402)
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$.class -> lastModified(1509617774397)
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$GetStats$.class -> lastModified(1509617774401)
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$Ping$.class -> lastModified(1509617774399)
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor$RequestReceived$.class -> lastModified(1509617774400)
+C:\workspace\web\web-project\target\scala-2.12\classes\actors\StatsActor.class -> lastModified(1509617774398)
+C:\workspace\web\web-project\target\scala-2.12\classes\AppApplicationLoader.class -> lastModified(1509617774396)
+C:\workspace\web\web-project\target\scala-2.12\classes\AppComponents.class -> lastModified(1509617774396)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\Application.class -> lastModified(1509617774402)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\javascript\ReverseApplication.class -> lastModified(1509617774409)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\javascript\ReverseAssets.class -> lastModified(1509617774409)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\ReverseApplication.class -> lastModified(1509617774408)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\ReverseAssets.class -> lastModified(1509617774407)
+C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes$$anonfun$routes$1.class -> lastModified(1509617774410)
+C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes.class -> lastModified(1509617774410)
+C:\workspace\web\web-project\target\scala-2.12\classes\router\RoutesPrefix$.class -> lastModified(1509617774411)
+C:\workspace\web\web-project\target\scala-2.12\classes\router\RoutesPrefix.class -> lastModified(1509617774411)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\StatsFilter.class -> lastModified(1509617774403)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\SunInfo$.class -> lastModified(1509617774405)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\SunInfo.class -> lastModified(1509617774404)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class -> lastModified(1509617774404)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherInfo$.class -> lastModified(1509617774407)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherInfo.class -> lastModified(1509617774406)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class -> lastModified(1509617774405)
+C:\workspace\web\web-project\target\scala-2.12\classes\views\html\index$.class -> lastModified(1509617774412)
+C:\workspace\web\web-project\target\scala-2.12\classes\views\html\index.class -> lastModified(1509617774412)
+source stamps:
+12 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> hash(7d21d3dba964b4a06d04f59bd19d6e92cc62135d)
+C:\workspace\web\web-project\app\AppLoader.scala -> hash(5782e6ab9d9106d957cd118430a926f16884aab3)
+C:\workspace\web\web-project\app\controllers\Application.scala -> hash(6597aac540f1ce82378d71722ec5282faa367844)
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> hash(80c3e48c815d24113d7bf75d840b401459194bc1)
+C:\workspace\web\web-project\app\services\SunService.scala -> hash(30db797a7765c48604af74b768d980371b816132)
+C:\workspace\web\web-project\app\services\WeatherService.scala -> hash(65e61d371ff54e5133dc57dacc3f09fe9ecc2f1a)
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> hash(9a89f89b9c327bae65f24bec666848e6602642ad)
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> hash(3d3e0413889df40a5b9ce45b1a3b3f28bf6a3526)
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\routes.java -> hash(0acff9dbcbe086a55ed60b6fa97f77baf80d4217)
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> hash(ee44164b683aca25e928e21002c1993905a65543)
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> hash(593d0f8b1cba5401bf72cf4e8bbbedee7a212999)
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> hash(fefa274a6f810976b6a56bd45a0ebf1dc1a8bf84)
+binary stamps:
+16 items
+C:\Program Files\Java\jre1.8.0_151\lib\rt.jar -> lastModified(1508313167806)
+C:\Users\rbont\.ivy2\cache\com.softwaremill.macwire\macros_2.12\jars\macros_2.12-2.3.0.jar -> lastModified(1486036509000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar -> lastModified(1497881264000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.3.jar -> lastModified(1497881342000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\filters-helpers_2.12\jars\filters-helpers_2.12-2.6.1.jar -> lastModified(1499383993000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ahc-ws_2.12\jars\play-ahc-ws_2.12-2.6.1.jar -> lastModified(1499383999000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.2.jar -> lastModified(1499285396000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar -> lastModified(1499383978000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar -> lastModified(1499384022000)
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\twirl-api_2.12\jars\twirl-api_2.12-1.3.3.jar -> lastModified(1498369950000)
+C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar -> lastModified(1492071552000)
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\Application.class -> lastModified(1509617774402)
+C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes.class -> lastModified(1509617774410)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\StatsFilter.class -> lastModified(1509617774403)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class -> lastModified(1509617774404)
+C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class -> lastModified(1509617774405)
+class names:
+16 items
+C:\Program Files\Java\jre1.8.0_151\lib\rt.jar -> java.lang.Object
+C:\Users\rbont\.ivy2\cache\com.softwaremill.macwire\macros_2.12\jars\macros_2.12-2.3.0.jar -> com.softwaremill.macwire.package$
+C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.3.jar -> akka.actor.ActorRefFactory
+C:\Users\rbont\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.3.jar -> akka.stream.Materializer
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\filters-helpers_2.12\jars\filters-helpers_2.12-2.6.1.jar -> play.filters.HttpFiltersComponents
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ahc-ws_2.12\jars\play-ahc-ws_2.12-2.6.1.jar -> play.api.libs.ws.ahc.AhcWSComponents
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.2.jar -> play.api.libs.json.JsLookup
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play-ws_2.12\jars\play-ws_2.12-2.6.1.jar -> play.api.libs.ws.WSRequest
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\play_2.12\jars\play_2.12-2.6.1.jar -> play.api.mvc.Call
+C:\Users\rbont\.ivy2\cache\com.typesafe.play\twirl-api_2.12\jars\twirl-api_2.12-1.3.3.jar -> play.twirl.api.Template3
+C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar -> scala.collection.Seq
+C:\workspace\web\web-project\target\scala-2.12\classes\controllers\Application.class -> controllers.Application
+C:\workspace\web\web-project\target\scala-2.12\classes\router\Routes.class -> router.Routes
+C:\workspace\web\web-project\target\scala-2.12\classes\services\StatsFilter.class -> services.StatsFilter
+C:\workspace\web\web-project\target\scala-2.12\classes\services\SunService.class -> services.SunService
+C:\workspace\web\web-project\target\scala-2.12\classes\services\WeatherService.class -> services.WeatherService
+internal apis:
+12 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxy0xtAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDImD1XdAAEc2VsZnNxAH4ACwTxPkJ0AAdjb250ZXh0dXEAfgAJAAAAL3NxAH4AC809Wox0AAZub3RpZnlzcQB+AAvO6DXPdAAHUmVjZWl2ZXNxAH4AC6Xyl5h0AARuYW1lc3EAfgALSUy1TXQABHdhaXRzcQB+AAstmpvidAANJGFzSW5zdGFuY2VPZnNxAH4AC7RUrgB0AARwYXRoc3EAfgALzN4ZVnQACEdldFN0YXRzc3EAfgALzJYPAXQADHByb2R1Y3RBcml0eXNxAH4ACxDIMbN0AAZlcXVhbHNzcQB+AAuu7XbPdAAKU3RhdHNBY3RvcnNxAH4ACwmnCOJ0AAxhc0luc3RhbmNlT2ZzcQB+AAuuKafodAAMc3luY2hyb25pemVkc3EAfgALJ2j2+3QADSRpc0luc3RhbmNlT2ZzcQB+AAvfRCvHdAAHcmVjZWl2ZXNxAH4AC2AZuEd0AApwcmVSZXN0YXJ0c3EAfgALFhMpVXQADWFyb3VuZFJlY2VpdmVzcQB+AAtvAfRgdAAIY2FuRXF1YWxzcQB+AAuFJSMvdAALcG9zdFJlc3RhcnRzcQB+AAsd25/sdAAIcG9zdFN0b3BzcQB+AAvkJda+dAANcHJvZHVjdFByZWZpeHNxAH4AC07+jZd0AAlub3RpZnlBbGxzcQB+AAtIYggVdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAsqW5zedAAMaXNJbnN0YW5jZU9mc3EAfgALi62vtXQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAvsupSgdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAtW6EHHdAAGPGluaXQ+c3EAfgALn5FaPHQACHByZVN0YXJ0c3EAfgALn7geJHQACXVuaGFuZGxlZHNxAH4AC0z8b0N0AAI9PXNxAH4AC+r646x0AAVjbG9uZXNxAH4AC0gejxF0AAYkaW5pdCRzcQB+AAtd+7a/dAAGc2VuZGVyc3EAfgALdYB39XQAB2NvdW50ZXJzcQB+AAsp/3Q4dAAIdG9TdHJpbmdzcQB+AAtzAOkpdAACIT1zcQB+AAv/FMjsdAAIZ2V0Q2xhc3NzcQB+AAuVwKHtdAACbmVzcQB+AAsldRSLdAAPUmVxdWVzdFJlY2VpdmVkc3EAfgALD4NFaHQABFBpbmdzcQB+AAsZqpr2dAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgAL0d70UHQAAmVxc3EAfgALUdt1JXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC6whWJ50AAIjI3NxAH4ACzLk7OR0AAhmaW5hbGl6ZXNxAH4AC2po09B0AA5wcm9kdWN0RWxlbWVudHNxAH4AC1A0S1J0AAhoYXNoQ29kZXNxAH4AC2pHH7J0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABFhY3RvcnMuU3RhdHNBY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AkXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB5TAAJaW5oZXJpdGVkcQB+AHlMAAdwYXJlbnRzcQB+AHl4cQB+AJZzcQB+AJF1cQB+AHQAAAAAc3EAfgCRdXEAfgB0AAAAAHNxAH4AkXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AlXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AlXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4ArnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ar3NxAH4AonQAA0FueXNxAH4ApnNxAH4AqXVxAH4ArAAAAAJzcQB+AK50AAVzY2FsYXEAfgC1c3EAfgB2cQB+AIN1cQB+AIQAAAAAc3EAfgCGAHQAEWFjdG9ycy5TdGF0c0FjdG9ydXEAfgCJAAAAAH5xAH4Ai3QACENsYXNzRGVmdXEAfgCPAAAAAHNxAH4AkXEAfgCXc3EAfgCRc3EAfgCZc3EAfgCRdXEAfgB0AAAAAHNxAH4AkXVxAH4AdAAAAABzcQB+AJF1cQB+AKAAAAADc3EAfgCidAAFQWN0b3JzcQB+AKZzcQB+AKl1cQB+AKwAAAADc3EAfgCudAAEYWtrYXNxAH4ArnQABWFjdG9ycQB+ALVzcQB+AKJxAH4ApXNxAH4ApnNxAH4AqXVxAH4ArAAAAANzcQB+AK5xAH4AsXNxAH4ArnEAfgCzcQB+ALVzcQB+AKJxAH4At3NxAH4ApnNxAH4AqXVxAH4ArAAAAAJzcQB+AK5xAH4AvHEAfgC1dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAGYWN0b3Jzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFffDsVcXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADZDOlx3b3Jrc3BhY2Vcd2ViXHdlYi1wcm9qZWN0XHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR9IdPbqWS0oG0E9ZvRnW6SzGITXQ==
+C:\workspace\web\web-project\app\AppLoader.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwpoSPpQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCVAHNrdAAQZXhlY3V0aW9uQ29udGV4dHNxAH4AC1lXdW90AAxtYXRlcmlhbGl6ZXJ1cQB+AAkAAABIc3EAfgALXm6QGXQAEWh0dHBDb25maWd1cmF0aW9uc3EAfgAL4pTyl3QAFWFwcGxpY2F0aW9uQ29udHJvbGxlcnNxAH4AC5EHsGV0AAZub3RpZnlzcQB+AAsflU+sdAALYXBwbGljYXRpb25zcQB+AAuSZZikdAAOdGVtcEZpbGVSZWFwZXJzcQB+AAv30sOKdAAOcmVxdWVzdEZhY3RvcnlzcQB+AAv6DVC8dAATYXNzZXRzQ29uZmlndXJhdGlvbnNxAH4AC1DMBkN0AA1maWxlTWltZVR5cGVzc3EAfgALJOjQUXQABmFzc2V0c3NxAH4ACz+eMfl0AAR3YWl0c3EAfgALegV+a3QAFGRlZmF1bHRBY3Rpb25CdWlsZGVyc3EAfgALthG2/HQAFWphdmFDb250ZXh0Q29tcG9uZW50c3NxAH4AC6k+bSB0AAtodHRwRmlsdGVyc3NxAH4ACyQNx4N0AA0kYXNJbnN0YW5jZU9mc3EAfgALyx/F1XQACWNzcmZDaGVja3NxAH4AC+ySRiJ0AA9jc3JmVG9rZW5TaWduZXJzcQB+AAswY5judAALc3RhdHNGaWx0ZXJzcQB+AAvlaocjdAAGZXF1YWxzc3EAfgALKaXhqXQAEWRlZmF1bHRCb2R5UGFyc2Vyc3EAfgALb+TQJnQAC2FjdG9yU3lzdGVtc3EAfgALqkkUMXQACmNzcmZGaWx0ZXJzcQB+AAsRa73udAAGcHJlZml4c3EAfgALD6saEXQAEmh0dHBSZXF1ZXN0SGFuZGxlcnNxAH4AC7FNHO50AAxhc0luc3RhbmNlT2ZzcQB+AAvkT3e+dAAMYXNzZXRzRmluZGVyc3EAfgALEbYYbXQACnN1blNlcnZpY2VzcQB+AAtTYTEKdAAMc3luY2hyb25pemVkc3EAfgALgsfwfHQAC3dlYkNvbW1hbmRzc3EAfgALBF6GY3QADSRpc0luc3RhbmNlT2ZzcQB+AAtRkyzUdAANQXBwQ29tcG9uZW50c3NxAH4AC6R3ocV0ABVzZWN1cml0eUhlYWRlcnNGaWx0ZXJzcQB+AAu/8FlmdAAUY29udHJvbGxlckNvbXBvbmVudHNzcQB+AAsq3RrwdAAEbG9hZHNxAH4ACy0RW7J0AAVsYW5nc3NxAH4AC3l2yoN0ABRhcHBsaWNhdGlvbkxpZmVjeWNsZXNxAH4AC1TtdKB0ABVzZWN1cml0eUhlYWRlcnNDb25maWdzcQB+AAsjl5ordAAUQXBwQXBwbGljYXRpb25Mb2FkZXJzcQB+AAsrdP/DdAAJbm90aWZ5QWxsc3EAfgAL3L1KY3QADGlzSW5zdGFuY2VPZnNxAH4AC5HCzvB0ABJhbGxvd2VkSG9zdHNGaWx0ZXJzcQB+AAsdesKhdAAOYXNzZXRzTWV0YWRhdGFzcQB+AAu3taRmdAAIaW5qZWN0b3JzcQB+AAu+gz3SdAAGPGluaXQ+c3EAfgALlEYkS3QADGNzcmZBZGRUb2tlbnNxAH4AC6eU3uB0ABFjc3JmVG9rZW5Qcm92aWRlcnNxAH4AC0/IGSZ0AA53ZWF0aGVyU2VydmljZXNxAH4AC4Qcs790AAI9PXNxAH4ACwO4j250ABJhbGxvd2VkSG9zdHNDb25maWdzcQB+AAsxOCc3dAAFY2xvbmVzcQB+AAvDq6F3dAAPcGxheUJvZHlQYXJzZXJzc3EAfgALHV4kP3QAEGh0dHBFcnJvckhhbmRsZXJzcQB+AAtK3m0gdAALZW52aXJvbm1lbnRzcQB+AAs3Ug29dAAGJGluaXQkc3EAfgAL+Fxz0nQADWNvbmZpZ3VyYXRpb25zcQB+AAtYVJYydAAMc291cmNlTWFwcGVyc3EAfgALzmMrDnQAC21lc3NhZ2VzQXBpc3EAfgALW1fWJXQAD3RlbXBGaWxlQ3JlYXRvcnNxAH4AC0nQwV90AAh0b1N0cmluZ3NxAH4AC4E6nlh0AAxjb29raWVTaWduZXJzcQB+AAvZXWW/dAACIT1zcQB+AAtY68tHdAAKc3RhdHNBY3RvcnNxAH4AC3CYmKF0AAhnZXRDbGFzc3NxAH4ACy/lFuV0AApjc3JmQ29uZmlnc3EAfgALGML2OnQAEGNzcmZFcnJvckhhbmRsZXJzcQB+AAtyji+7dAAId3NDbGllbnRzcQB+AAteHz53dAACbmVzcQB+AAsRQGzydAAHb25TdGFydHNxAH4AC7Fxp0l0AAZyb3V0ZXJzcQB+AAuhR85cdAACZXFzcQB+AAvCxymmdAACIyNzcQB+AAsmj7CUdAAIZmluYWxpemVzcQB+AAvaVc1vdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCreHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AFt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AwnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCrTAAJaW5oZXJpdGVkcQB+AKtMAAdwYXJlbnRzcQB+AKt4cQB+AMdzcQB+AMJ1cQB+AKYAAAAAc3EAfgDCdXEAfgCmAAAAAHNxAH4AwnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AxnQAEUFwcGxpY2F0aW9uTG9hZGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgDGc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgDfdAADYXBpc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AOBzcQB+ANN0AAZPYmplY3RzcQB+ANdzcQB+ANp1cQB+AN0AAAADc3EAfgDfdAAEamF2YXNxAH4A33QABGxhbmdxAH4A5nNxAH4A03QAA0FueXNxAH4A13NxAH4A2nVxAH4A3QAAAAJzcQB+AN90AAVzY2FsYXEAfgDmc3EAfgCocQB+ALV1cQB+ALYAAAAAc3EAfgC4AHEAfgBNdXEAfgC6AAAAAHEAfgC+dXEAfgDAAAAAAHNxAH4AwnEAfgDIc3EAfgDCc3EAfgDKc3EAfgDCdXEAfgCmAAAAAHNxAH4AwnVxAH4ApgAAAABzcQB+AMJ1cQB+ANEAAAALc3EAfgDTdAAVSHR0cEZpbHRlcnNDb21wb25lbnRzc3EAfgDXc3EAfgDadXEAfgDdAAAAA3NxAH4A33QABHBsYXlzcQB+AN90AAdmaWx0ZXJzcQB+AOZzcQB+ANN0ABZBbGxvd2VkSG9zdHNDb21wb25lbnRzc3EAfgDXc3EAfgDadXEAfgDdAAAABHNxAH4A33QABHBsYXlzcQB+AN90AAdmaWx0ZXJzc3EAfgDfdAAFaG9zdHNxAH4A5nNxAH4A03QAGVNlY3VyaXR5SGVhZGVyc0NvbXBvbmVudHNzcQB+ANdzcQB+ANp1cQB+AN0AAAAEc3EAfgDfdAAEcGxheXNxAH4A33QAB2ZpbHRlcnNzcQB+AN90AAdoZWFkZXJzcQB+AOZzcQB+ANN0AA5DU1JGQ29tcG9uZW50c3NxAH4A13NxAH4A2nVxAH4A3QAAAARzcQB+AN90AARwbGF5c3EAfgDfdAAHZmlsdGVyc3NxAH4A33QABGNzcmZxAH4A5nNxAH4A03QAEEFzc2V0c0NvbXBvbmVudHNzcQB+ANdzcQB+ANp1cQB+AN0AAAACc3EAfgDfdAALY29udHJvbGxlcnNxAH4A5nNxAH4A03QAD0FoY1dTQ29tcG9uZW50c3NxAH4A13NxAH4A2nVxAH4A3QAAAAZzcQB+AN90AARwbGF5c3EAfgDfcQB+AORzcQB+AN90AARsaWJzc3EAfgDfdAACd3NzcQB+AN90AANhaGNxAH4A5nNxAH4A03QAHEJ1aWx0SW5Db21wb25lbnRzRnJvbUNvbnRleHRzcQB+ANdzcQB+ANp1cQB+AN0AAAADc3EAfgDfdAAEcGxheXNxAH4A33EAfgDkcQB+AOZzcQB+ANN0ABFCdWlsdEluQ29tcG9uZW50c3EAfgFGc3EAfgDTdAAOSTE4bkNvbXBvbmVudHNzcQB+ANdzcQB+ANp1cQB+AN0AAAAEc3EAfgDfdAAEcGxheXNxAH4A33EAfgDkc3EAfgDfdAAEaTE4bnEAfgDmc3EAfgDTcQB+AOhzcQB+ANdzcQB+ANp1cQB+AN0AAAADc3EAfgDfcQB+AO1zcQB+AN9xAH4A73EAfgDmc3EAfgDTcQB+APFzcQB+ANdzcQB+ANp1cQB+AN0AAAACc3EAfgDfcQB+APZxAH4A5nVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFffDsVcXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADZDOlx3b3Jrc3BhY2Vcd2ViXHdlYi1wcm9qZWN0XHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRXguarnZEG2VfNEYQwqSbxaISqsw==
+C:\workspace\web\web-project\app\controllers\Application.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw6sp5YAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAVzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCMugPYdAANZmlsZU1pbWVUeXBlc3NxAH4ACwzuE2Z0AA9yZXF1ZXN0MnNlc3Npb25zcQB+AAsohVDddAALbWVzc2FnZXNBcGlzcQB+AAvgqNh/dAAOc3VwcG9ydGVkTGFuZ3NzcQB+AAtnZ0sbdAANcmVxdWVzdDJmbGFzaHVxAH4ACQAAAQpzcQB+AAuLb/SNdAAMUmVzZXRDb250ZW50c3EAfgALaGhS/HQADU5vdEFjY2VwdGFibGVzcQB+AAtIuuC/dAARVGVtcG9yYXJ5UmVkaXJlY3RzcQB+AAu04p5QdAAIc2VuZEZpbGVzcQB+AAsKVN4UdAAIbmV3Rmxhc2hzcQB+AAsHBStHdAAPYWRkaW5nVG9TZXNzaW9uc3EAfgALonmSp3QABkxvY2tlZHNxAH4AC2oziat0AAZub3RpZnlzcQB+AAvgvcxTdAAERlJPTXNxAH4AC1hbtdx0ABBDT05URU5UX0xBTkdVQUdFc3EAfgALOfKH0XQAB0NSRUFURURzcQB+AAsa3kiFdAAHdW5hcHBseXNxAH4AC1aID8F0ABBUT09fTUFOWV9SRVFVRVNUc3EAfgALTq/DmHQAB1dBUk5JTkdzcQB+AAtgvIuXdAAPUGF5bWVudFJlcXVpcmVkc3EAfgAL85AAzHQACENPTlRJTlVFc3EAfgALXLJN/nQABGJvZHlzcQB+AAvtOdp6dAAFWEhUTUxzcQB+AAtVrsgqdAALU0VUX0NPT0tJRTJzcQB+AAujiXBOdAAISFRUUF8xXzFzcQB+AAuNWXfIdAAVYmFrZUNvb2tpZXMkZGVmYXVsdCQyc3EAfgAL/dKh6nQAE0NPTlRFTlRfRElTUE9TSVRJT05zcQB+AAs7bE4XdAAMQ09OVEVOVF9UWVBFc3EAfgALcqpb6XQABkJJTkFSWXNxAH4ACyhxo790AAR3YWl0c3EAfgALIcUuqXQAHEFDQ0VTU19DT05UUk9MX0FMTE9XX01FVEhPRFNzcQB+AAuGYR0KdAAKQmFkR2F0ZXdheXNxAH4ACzvGOM90ABBNZXRob2ROb3RBbGxvd2Vkc3EAfgALNGh+fXQADlRvb01hbnlSZXF1ZXN0c3EAfgALNNnwWXQAClVTRVJfQUdFTlRzcQB+AAs4NR46dAAWc2VuZFJlc291cmNlJGRlZmF1bHQkMnNxAH4AC72qYZJ0AARIT1NUc3EAfgALetBjXHQAC0NPTlRFTlRfTUQ1c3EAfgALdzaJinQADmNvcHkkZGVmYXVsdCQyc3EAfgALij6fB3QAB0NyZWF0ZWRzcQB+AAuf0R2BdAANJGFzSW5zdGFuY2VPZnNxAH4AC+m/wVV0ABBYX0ZPUldBUkRFRF9QT1JUc3EAfgALK8FhhXQAElN3aXRjaGluZ1Byb3RvY29sc3NxAH4AC9TP2mp0AApKYXZhU2NyaXB0c3EAfgALOSRd6nQAC0JBRF9SRVFVRVNUc3EAfgALPrkiSnQADk5vdEltcGxlbWVudGVkc3EAfgALLvOVcHQADE1BWF9GT1JXQVJEU3NxAH4ACyrLuel0AA5jb3B5JGRlZmF1bHQkNXNxAH4AC0qLwSp0ABBYX0ZPUldBUkRFRF9IT1NUc3EAfgALyQ6Co3QAA0NTU3NxAH4AC6JOS/J0AAhTZWVPdGhlcnNxAH4AC1bBIwh0AAdUUkFJTEVSc3EAfgALDgjrnnQAElBST1hZX0FVVEhFTlRJQ0FURXNxAH4ACxbpO6B0AA1BVVRIT1JJWkFUSU9Oc3EAfgALADaHVHQAA1hNTHNxAH4AC6by64N0AA1DQUNIRV9DT05UUk9Mc3EAfgALEbfL+nQAFWJha2VDb29raWVzJGRlZmF1bHQkMXNxAH4AC5+1uxF0ABtOb25BdXRob3JpdGF0aXZlSW5mb3JtYXRpb25zcQB+AAuOCYgIdAAPTk9UX0lNUExFTUVOVEVEc3EAfgALhSIpvnQADHByb2R1Y3RBcml0eXNxAH4ACz4tjht0AAZlcXVhbHNzcQB+AAvl/kuldAAQUEFZTUVOVF9SRVFVSVJFRHNxAH4AC3dut0x0AAhBY2NlcHRlZHNxAH4ACyiw6tR0AAtSRVRSWV9BRlRFUnNxAH4AC3FaWjZ0ABJSZWRpcmVjdCRkZWZhdWx0JDJzcQB+AAuAVW0qdAAESlNPTnNxAH4AC+AguDJ0AAhSZWRpcmVjdHNxAH4AC8Wxhmh0ABNQUkVDT05ESVRJT05fRkFJTEVEc3EAfgAL/2uganQADlBhcnRpYWxDb250ZW50c3EAfgALCx9WvXQAFFVuc3VwcG9ydGVkTWVkaWFUeXBlc3EAfgALE1KT2HQACENPTkZMSUNUc3EAfgAL97EioHQAEnNlbmRGaWxlJGRlZmF1bHQkMnNxAH4ACw/EOLl0AA5BQ0NFUFRfQ0hBUlNFVHNxAH4AC57AEJ10ABFQZXJtYW5lbnRSZWRpcmVjdHNxAH4AC5ebVsJ0AApuZXdDb29raWVzc3EAfgALbbAGUHQAEUV4cGVjdGF0aW9uRmFpbGVkc3EAfgAL/kXsq3QAA1ZJQXNxAH4ACx9sc0t0AAxhc0luc3RhbmNlT2ZzcQB+AAs5slSGdAAPUkVRVUVTVF9USU1FT1VUc3EAfgALe2eoiXQAEE1VTFRJUExFX0NIT0lDRVNzcQB+AAsdhD5SdAARTU9WRURfUEVSTUFORU5UTFlzcQB+AAuKW9uvdAACVEVzcQB+AAvVFom9dAAOR2F0ZXdheVRpbWVvdXRzcQB+AAvl3t/RdAAQQ09OVEVOVF9MT0NBVElPTnNxAH4AC9CGpTt0AA9QQVJUSUFMX0NPTlRFTlRzcQB+AAvZ+Wt1dAATcmVtb3ZpbmdGcm9tU2Vzc2lvbnNxAH4ACzBxstp0ABRJTlNVRkZJQ0lFTlRfU1RPUkFHRXNxAH4AC1kC6mR0AAxFVkVOVF9TVFJFQU1zcQB+AAsaLHQzdAAMc3luY2hyb25pemVkc3EAfgALLkkB33QAEEZhaWxlZERlcGVuZGVuY3lzcQB+AAvfyVUhdAAERVRBR3NxAH4AC3zGIa10AA9MRU5HVEhfUkVRVUlSRURzcQB+AAuSmnsldAAOd2l0aE5ld1Nlc3Npb25zcQB+AAsVSjFBdAAKSkFWQVNDUklQVHNxAH4AC9+GxIR0AA5FbnRpdHlUb29MYXJnZXNxAH4AC0agE3d0AAxVTkFVVEhPUklaRURzcQB+AAuuuDOGdAASc2VuZFBhdGgkZGVmYXVsdCQyc3EAfgALrK084XQAFlVOU1VQUE9SVEVEX01FRElBX1RZUEVzcQB+AAtEhZe+dAAXZGVmYXVsdEV4ZWN1dGlvbkNvbnRleHRzcQB+AAuZHE8+dAANJGlzSW5zdGFuY2VPZnNxAH4ACyGET2R0AAdSRUZFUkVSc3EAfgAL3H35F3QAGFJFUVVFU1RfRU5USVRZX1RPT19MQVJHRXNxAH4ACwcooYx0AAZPUklHSU5zcQB+AAseinfrdAALd2l0aENvb2tpZXNzcQB+AAvvcv9VdAAPQUNDRVBUX0xBTkdVQUdFc3EAfgALWS1XzHQADE5PVF9NT0RJRklFRHNxAH4AC8NRHYJ0AAJhc3NxAH4AC9ckkrR0ABRjb250cm9sbGVyQ29tcG9uZW50c3NxAH4AC4yJz0x0AAt3aXRoU2Vzc2lvbnNxAH4ACyRfSod0ABViYWtlQ29va2llcyRkZWZhdWx0JDNzcQB+AAs3xPgPdAAaSFRUUF9WRVJTSU9OX05PVF9TVVBQT1JURURzcQB+AAshkoL2dAAbQUNDRVNTX0NPTlRST0xfQUxMT1dfT1JJR0lOc3EAfgALnHufsnQAEnNlbmRGaWxlJGRlZmF1bHQkM3NxAH4ACx4k0dh0ABNVbnByb2Nlc3NhYmxlRW50aXR5c3EAfgALzFlxWnQACUltQVRlYXBvdHNxAH4AC0Ckq0p0AAhjYW5FcXVhbHNxAH4AC89wMWl0AAhOb3RGb3VuZHNxAH4AC7HzRC10AAhJRl9SQU5HRXNxAH4AC6uvCrF0ABJzZW5kRmlsZSRkZWZhdWx0JDRzcQB+AAtl47D8dAAOY29weSRkZWZhdWx0JDRzcQB+AAsPSJa8dAAIZmxhc2hpbmdzcQB+AAtkml0FdAAERk9STXNxAH4ACwy+d6R0ABNJRl9VTk1PRElGSUVEX1NJTkNFc3EAfgAL34x0/nQAE1NXSVRDSElOR19QUk9UT0NPTFNzcQB+AAvxpkPMdAASVEVNUE9SQVJZX1JFRElSRUNUc3EAfgALBqDWJnQADXByb2R1Y3RQcmVmaXhzcQB+AAvO287MdAAOQ09OVEVOVF9MRU5HVEhzcQB+AAs+wXmidAALSU1fQV9URUFQT1RzcQB+AAtRtrdvdAAKU0VUX0NPT0tJRXNxAH4ACypKE3x0AAlub3RpZnlBbGxzcQB+AAs5YKahdAADQUdFc3EAfgALMdqqcXQAC0JBRF9HQVRFV0FZc3EAfgALswHBLHQAEkVYUEVDVEFUSU9OX0ZBSUxFRHNxAH4AC3eIciJ0AApDT05ORUNUSU9Oc3EAfgALS32HVXQACUZPUldBUkRFRHNxAH4AC82RPYl0AAJPa3NxAH4AC5ZYi1p0AAxpc0luc3RhbmNlT2ZzcQB+AAsEfumAdAAQTW92ZWRQZXJtYW5lbnRseXNxAH4AC2UHxT90AAJPS3NxAH4AC6TUo5h0AAZhc0phdmFzcQB+AAvSDHVFdAARZGlzY2FyZGluZ0Nvb2tpZXNzcQB+AAvUUTQ2dAAETElOS3NxAH4AC/6C/hV0ABxBQ0NFU1NfQ09OVFJPTF9BTExPV19IRUFERVJTc3EAfgALr7YtlHQACm5ld1Nlc3Npb25zcQB+AAuN+gmqdAAZU1RSSUNUX1RSQU5TUE9SVF9TRUNVUklUWXNxAH4AC3Cn9BN0AA5DQUNIRV9NQU5JRkVTVHNxAH4ACxl2kAt0AAlGb3JiaWRkZW5zcQB+AAs8byYbdAAXSHR0cFZlcnNpb25Ob3RTdXBwb3J0ZWRzcQB+AAtYWHcEdAAEVEVYVHNxAH4ACxAxwi90AApCYWRSZXF1ZXN0c3EAfgALHL85FHQABUZPVU5Ec3EAfgALV140AnQABjxpbml0PnNxAH4AC4cl38B0AAtOb3RNb2RpZmllZHNxAH4ACxP7/zV0AAREQVRFc3EAfgALbmGSOnQABWFzeW5jc3EAfgALzL+yqXQADUNPTlRFTlRfUkFOR0VzcQB+AAsePq1WdAAEJGFtcHNxAH4ACwHj5RR0AAxzZW5kUmVzb3VyY2VzcQB+AAsyl9pbdAAHY2h1bmtlZHNxAH4AC7MXW1B0ABFUUkFOU0ZFUl9FTkNPRElOR3NxAH4AC8WLvrZ0ABJQRVJNQU5FTlRfUkVESVJFQ1RzcQB+AAuPvMZYdAAFYXBwbHlzcQB+AAtZw2JHdAARVE9PX01BTllfUkVRVUVTVFNzcQB+AAuKpBzadAAFcGFyc2VzcQB+AAvOUL0RdAATUFJPWFlfQVVUSE9SSVpBVElPTnNxAH4AC5IegrV0AAI9PXNxAH4ACzZKquR0AARHT05Fc3EAfgALBfdqCnQABEdvbmVzcQB+AAtPUFaLdAAgQUNDRVNTX0NPTlRST0xfQUxMT1dfQ1JFREVOVElBTFNzcQB+AAuyOlGDdAAOTk9UX0FDQ0VQVEFCTEVzcQB+AAtXussMdAAFY2xvbmVzcQB+AAtfri9NdAAGRVhQRUNUc3EAfgAL9cefuXQAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDNzcQB+AAtGjWpxdAASU2VydmljZVVuYXZhaWxhYmxlc3EAfgAL5QYBanQACExPQ0FUSU9Oc3EAfgAL7cnb1nQAEnNlbmRQYXRoJGRlZmF1bHQkNHNxAH4ACyLLsxB0AARWQVJZc3EAfgAL/XrVuXQAEFdXV19BVVRIRU5USUNBVEVzcQB+AAtyCF5OdAALQXBwbGljYXRpb25zcQB+AAudU/iSdAAEVE9ET3NxAH4ACw9nGMJ0AA9YX0ZPUldBUkRFRF9GT1JzcQB+AAvN4SF9dAAGJGluaXQkc3EAfgALjbOeF3QAElByZWNvbmRpdGlvbkZhaWxlZHNxAH4AC4kql3N0AAhBQ0NFUFRFRHNxAH4AC3GvI9R0AARIdG1sc3EAfgALRBU0s3QACk5PX0NPTlRFTlRzcQB+AAsPDQ6ZdAAISFRUUF8xXzBzcQB+AAt3TH2LdAAVSU5URVJOQUxfU0VSVkVSX0VSUk9Sc3EAfgALC7iL7XQAFWJha2VDb29raWVzJGRlZmF1bHQkNHNxAH4AC3TQS8V0AAdVUEdSQURFc3EAfgAL9qfTX3QAC2Jha2VDb29raWVzc3EAfgALPxUQqXQACU5PVF9GT1VORHNxAH4AC7SCovJ0AAdzZXNzaW9uc3EAfgALutiRMXQAD0FDQ0VQVF9FTkNPRElOR3NxAH4AC0uQpbN0ABNJbnRlcm5hbFNlcnZlckVycm9yc3EAfgALU+nDTHQAB0VYUElSRVNzcQB+AAsQyeCwdAAOY29weSRkZWZhdWx0JDNzcQB+AAvykgHPdAAEY29weXNxAH4ACzZ4P1l0AB9SRVFVRVNURURfUkFOR0VfTk9UX1NBVElTRklBQkxFc3EAfgALG78rb3QABmhlYWRlcnNxAH4AC7Px92N0ABBVUEdSQURFX1JFUVVJUkVEc3EAfgALUEcAPnQAD1Rvb01hbnlSZXF1ZXN0c3NxAH4AC0ceDFV0AAh0b1N0cmluZ3NxAH4AC9K49Y90AAxVbmF1dGhvcml6ZWRzcQB+AAuLYHxgdAAOUmVxdWVzdFRpbWVvdXRzcQB+AAsKxOTqdAAGQUNDRVBUc3EAfgAL8vTWzXQAClVyaVRvb0xvbmdzcQB+AAvqAWRqdAAPR0FURVdBWV9USU1FT1VUc3EAfgALHvTH3XQAC011bHRpU3RhdHVzc3EAfgALoxJlrnQABlNFUlZFUnNxAH4AC3Vq1Z50AB1BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX01FVEhPRHNxAH4AC9rHltZ0ABRVTlBST0NFU1NBQkxFX0VOVElUWXNxAH4AC6EbNi50ABZBQ0NFU1NfQ09OVFJPTF9NQVhfQUdFc3EAfgALzFoNdHQACHNlbmRQYXRoc3EAfgALeH0gJ3QACnNlbmRFbnRpdHlzcQB+AAvTTt09dAACIT1zcQB+AAvGRBtSdAANTEFTVF9NT0RJRklFRHNxAH4ACyi9mR90AB1BQ0NFU1NfQ09OVFJPTF9FWFBPU0VfSEVBREVSU3NxAH4ACx1tt4x0AB5BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX0hFQURFUlNzcQB+AAuLi1RNdAALd2l0aENoYXJzZXRzcQB+AAsGHK4qdAAIQ29uZmxpY3RzcQB+AAvwpgpGdAAFQUxMT1dzcQB+AAt6PxFldAAGQ09PS0lFc3EAfgALnrWUDHQAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALCGkkAHQACGdldENsYXNzc3EAfgAL78j5H3QAA1htbHNxAH4ACzOPDNN0ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALbkNbMnQADmNvcHkkZGVmYXVsdCQxc3EAfgALoefP/nQABEhUTUxzcQB+AAsmsnuddAAFRm91bmRzcQB+AAtNMhWHdAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAt6Ew3sdAAGcmVuZGVyc3EAfgAL9LKi4nQABlBSQUdNQXNxAH4ACzrrGQB0AAhJRl9NQVRDSHNxAH4AC7haTTN0AB1QUk9YWV9BVVRIRU5USUNBVElPTl9SRVFVSVJFRHNxAH4AC48Ev3B0AA1SRVNFVF9DT05URU5Uc3EAfgALGzYNwHQACVNFRV9PVEhFUnNxAH4AC0MnaVZ0ABFGQUlMRURfREVQRU5ERU5DWXNxAH4AC6MR2I90AAJuZXNxAH4ACzy9aCN0ABBDT05URU5UX0VOQ09ESU5Hc3EAfgALRfPF5XQAE0luc3VmZmljaWVudFN0b3JhZ2VzcQB+AAt8FG7FdAAFUkFOR0VzcQB+AAsyI5ZodAAPd2l0aERhdGVIZWFkZXJzc3EAfgALBjz3UXQACVVTRV9QUk9YWXNxAH4AC57/9WZ0AAdBY2NlcHRzc3EAfgAL+f0kHHQAB0NIVU5LRURzcQB+AAs/CrijdAAUUkVRVUVTVF9VUklfVE9PX0xPTkdzcQB+AAtJ9r4ndAASUmVkaXJlY3QkZGVmYXVsdCQzc3EAfgALAsEV2XQABkxPQ0tFRHNxAH4AC9lz0dp0ABJzZW5kUGF0aCRkZWZhdWx0JDNzcQB+AAs6Wv0SdAAGQWN0aW9uc3EAfgAL11jWBXQABEpzb25zcQB+AAsNubtKdAAJRk9SQklEREVOc3EAfgALlfaH1nQAEk1FVEhPRF9OT1RfQUxMT1dFRHNxAH4AC0MnPZ50AAJlcXNxAH4AC8lMjtZ0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAv2JOUQdAANSUZfTk9ORV9NQVRDSHNxAH4AC3BQmYV0AA1BQ0NFUFRfUkFOR0VTc3EAfgALZHAn/XQACU5vQ29udGVudHNxAH4AC05XYft0ABBYX1JFUVVFU1RFRF9XSVRIc3EAfgAL0iB/7XQAEVhfRk9SV0FSREVEX1BST1RPc3EAfgALTXTIkHQACENvbnRpbnVlc3EAfgALzBKF+nQADE1VTFRJX1NUQVRVU3NxAH4ACwEqIqh0AAIjI3NxAH4AC2KZzK90AAhmaW5hbGl6ZXNxAH4AC85rGZ10ABNTRVJWSUNFX1VOQVZBSUxBQkxFc3EAfgALBV/7D3QABWluZGV4c3EAfgALRkbgH3QADnByb2R1Y3RFbGVtZW50c3EAfgALMm9+4nQACGhhc2hDb2Rlc3EAfgALdDyTyXQABlN0YXR1c3NxAH4ACzzxNBJ0AAt3aXRoSGVhZGVyc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AjV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABdjb250cm9sbGVycy5BcHBsaWNhdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgJNc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AjVMAAlpbmhlcml0ZWRxAH4CNUwAB3BhcmVudHNxAH4CNXhxAH4CUnNxAH4CTXVxAH4CMAAAAABzcQB+Ak11cQB+AjAAAAAAc3EAfgJNdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAA9zcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgJRdAASQWJzdHJhY3RDb250cm9sbGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgJRc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgJqdAADYXBpc3EAfgJqdAADbXZjc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AmtzcQB+Al50AA5CYXNlQ29udHJvbGxlcnEAfgJkc3EAfgJedAAVQmFzZUNvbnRyb2xsZXJIZWxwZXJzcQB+AmRzcQB+Al50ABFDb250cm9sbGVySGVscGVyc3EAfgJkc3EAfgJedAAQUmVxdWVzdEltcGxpY2l0c3EAfgJkc3EAfgJedAAJUmVuZGVyaW5ncQB+AmRzcQB+Al50ABFSZXF1ZXN0RXh0cmFjdG9yc3EAfgJkc3EAfgJedAAQQWNjZXB0RXh0cmFjdG9yc3EAfgJkc3EAfgJedAAMQ29udGVudFR5cGVzc3EAfgJic3EAfgJldXEAfgJoAAAABHNxAH4CanQABHBsYXlzcQB+AmpxAH4Cb3NxAH4CanQABGh0dHBxAH4Cc3NxAH4CXnQAC0hlYWRlck5hbWVzcQB+AoRzcQB+Al50AAZTdGF0dXNxAH4ChHNxAH4CXnQADEh0dHBQcm90b2NvbHEAfgKEc3EAfgJedAAHUmVzdWx0c3EAfgJkc3EAfgJedAAGT2JqZWN0c3EAfgJic3EAfgJldXEAfgJoAAAAA3NxAH4CanQABGphdmFzcQB+Amp0AARsYW5ncQB+AnNzcQB+Al50AANBbnlzcQB+AmJzcQB+AmV1cQB+AmgAAAACc3EAfgJqdAAFc2NhbGFxAH4Cc3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFffDsVcXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADZDOlx3b3Jrc3BhY2Vcd2ViXHdlYi1wcm9qZWN0XHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRll6rFQPHOgjeNcXIuxSgvqjZ4RA==
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwEl74JwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBhqsIZdAADbWF0dXEAfgAJAAAAGHNxAH4AC4aOt8h0AAZub3RpZnlzcQB+AAt+b5fxdAAEd2FpdHNxAH4AC7enyP90AA0kYXNJbnN0YW5jZU9mc3EAfgALvKYrO3QABmVxdWFsc3NxAH4AC/4TD/N0AAxhc0luc3RhbmNlT2ZzcQB+AAvn7NkcdAAMc3luY2hyb25pemVkc3EAfgALULS2o3QADSRpc0luc3RhbmNlT2ZzcQB+AAuB1GRJdAALU3RhdHNGaWx0ZXJzcQB+AAuxxqbzdAAJbm90aWZ5QWxsc3EAfgALZ9ygDnQADGlzSW5zdGFuY2VPZnNxAH4AC5JZRmF0AAZhc0phdmFzcQB+AAsUJgjvdAAGPGluaXQ+c3EAfgALym9up3QABWFwcGx5c3EAfgALBi/eyHQAAj09c3EAfgALZn0CI3QABWNsb25lc3EAfgALl9ioVHQABiRpbml0JHNxAH4AC6gPMU50AAh0b1N0cmluZ3NxAH4ACyG5pgl0AAIhPXNxAH4ACwFOVq10AAhnZXRDbGFzc3NxAH4ACx2e1C10AAJuZXNxAH4AC32WBrh0AAJlcXNxAH4AC+tkOXV0AAIjI3NxAH4ACyGdHL90AAhmaW5hbGl6ZXNxAH4AC2fUcZN0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABRzZXJ2aWNlcy5TdGF0c0ZpbHRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBhc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AZnNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cQB+AEQAAAAAc3EAfgBhdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAAGRmlsdGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBlc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgB+dAADYXBpc3EAfgB+dAADbXZjc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AA9Fc3NlbnRpYWxGaWx0ZXJxAH4AeHNxAH4AcnQABk9iamVjdHNxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCHc3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AId1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAhzZXJ2aWNlc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3w7FXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA2Qzpcd29ya3NwYWNlXHdlYlx3ZWItcHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUgMPkjIFdJBE9e/ddhAtAFFkZS8E=
+C:\workspace\web\web-project\app\services\SunService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuIbNegAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwY+y/nHQABm5vdGlmeXNxAH4ADKJD0BB0AAR3YWl0c3EAfgAMMgpLr3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMaZJ333QADSRhc0luc3RhbmNlT2ZzcQB+AAxeDSIMdAAMcHJvZHVjdEFyaXR5c3EAfgAMCp0GDnQABmVxdWFsc3NxAH4ADGs47Gd0AAxhc0luc3RhbmNlT2ZzcQB+AAyKw/ZRdAAMc3luY2hyb25pemVkc3EAfgAMYM8GRnQADSRpc0luc3RhbmNlT2ZzcQB+AAyPJcSjdAAIY2FuRXF1YWxzcQB+AAyZEOnxdAAHU3VuSW5mb3NxAH4ADPpRsC50AA1wcm9kdWN0UHJlZml4c3EAfgAMQ1XmK3QACW5vdGlmeUFsbHNxAH4ADNz1JI90AAxpc0luc3RhbmNlT2ZzcQB+AAwBjujrdAAGPGluaXQ+c3EAfgAM37iZrXQAAj09c3EAfgAMkUhQJ3QABWNsb25lc3EAfgAM/5WszHQAClN1blNlcnZpY2VzcQB+AAxEGs78dAAHc3VucmlzZXNxAH4ADL30IN90AAYkaW5pdCRzcQB+AAzsqYjvdAAEY29weXNxAH4ADMH8B4d0AAh0b1N0cmluZ3NxAH4ADKCSTA50AAZzdW5zZXRzcQB+AAyUK0P/dAACIT1zcQB+AAw2LAADdAAIZ2V0Q2xhc3NzcQB+AAx0W8oAdAAOY29weSRkZWZhdWx0JDFzcQB+AAxWGIXvdAACbmVzcQB+AAy73mDfdAAKZ2V0U3VuSW5mb3NxAH4ADF2IuXR0AAJlcXNxAH4ADH/ypKJ0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwizQmrdAACIyNzcQB+AAxZbeopdAAIZmluYWxpemVzcQB+AAyW3DZJdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyt5pKedAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAATc2VydmljZXMuU3VuU2VydmljZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB3dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB3c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCQdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCRc3EAfgCEdAADQW55c3EAfgCIc3EAfgCLdXEAfgCOAAAAAnNxAH4AkHQABXNjYWxhcQB+AJdzcQB+AFhxAH4AZXVxAH4AZgAAAABzcQB+AGgAdAAQc2VydmljZXMuU3VuSW5mb3VxAH4AawAAAABxAH4Ab3VxAH4AcQAAAABzcQB+AHNxAH4AeXNxAH4Ac3NxAH4Ae3NxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXEAfgCCAAAABnNxAH4AhHQADFNlcmlhbGl6YWJsZXNxAH4AiHNxAH4Ai3VxAH4AjgAAAAJzcQB+AJBxAH4AnnEAfgCXc3EAfgCEcQB+AK9zcQB+AIhzcQB+AIt1cQB+AI4AAAADc3EAfgCQcQB+AJNzcQB+AJB0AAJpb3EAfgCXc3EAfgCEdAAHUHJvZHVjdHEAfgCwc3EAfgCEdAAGRXF1YWxzcQB+ALBzcQB+AIRxAH4Ah3NxAH4AiHNxAH4Ai3VxAH4AjgAAAANzcQB+AJBxAH4Ak3NxAH4AkHEAfgCVcQB+AJdzcQB+AIRxAH4AmXEAfgCwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAIc2VydmljZXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV98OxVxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANkM6XHdvcmtzcGFjZVx3ZWJcd2ViLXByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDDbeXp3ZcSGBK90t2jZgDcbgWEy
+C:\workspace\web\web-project\app\services\WeatherService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwu0hHNQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAkc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwGk0dgnQABm5vdGlmeXNxAH4ADF5mFdB0AAR3YWl0c3EAfgAM1hsLtXQACHByZXNzdXJlc3EAfgAMUknOT3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMnU76b3QADSRhc0luc3RhbmNlT2ZzcQB+AAzQBMygdAAMcHJvZHVjdEFyaXR5c3EAfgAMDETRunQABmVxdWFsc3NxAH4ADKcgk7x0AAxhc0luc3RhbmNlT2ZzcQB+AAxfBPtfdAAMc3luY2hyb25pemVkc3EAfgAMBFpEH3QADSRpc0luc3RhbmNlT2ZzcQB+AAxJI3jUdAALdGVtcGVyYXR1cmVzcQB+AAwavobxdAAIY2FuRXF1YWxzcQB+AAxd5q6gdAAOZ2V0V2VhdGhlckluZm9zcQB+AAzzFSzhdAANcHJvZHVjdFByZWZpeHNxAH4ADFT5aT50AAlub3RpZnlBbGxzcQB+AAy3bshddAAMaXNJbnN0YW5jZU9mc3EAfgAMF7IpnHQABjxpbml0PnNxAH4ADG3D/TZ0AAhodW1pZGl0eXNxAH4ADKUU4ap0AAI9PXNxAH4ADOqxQEB0AAVjbG9uZXNxAH4ADAO7DMd0AAYkaW5pdCRzcQB+AAytbrRfdAAOY29weSRkZWZhdWx0JDNzcQB+AAyai8F1dAAEY29weXNxAH4ADCqylh90AAh0b1N0cmluZ3NxAH4ADFipDAZ0AAIhPXNxAH4ADBkGdyR0AAhnZXRDbGFzc3NxAH4ADLDwbnt0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADMhHXDF0AA5XZWF0aGVyU2VydmljZXNxAH4ADEgoTqZ0AAJuZXNxAH4ADKtlf6F0AAJlcXNxAH4ADHQhroR0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzKrrR0dAALV2VhdGhlckluZm9zcQB+AAz8WFhDdAACIyNzcQB+AAyh8FFFdAAIZmluYWxpemVzcQB+AAxyPSmTdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAw0hT+BdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBfeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAXc2VydmljZXMuV2VhdGhlclNlcnZpY2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ad3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBfTAAJaW5oZXJpdGVkcQB+AF9MAAdwYXJlbnRzcQB+AF94cQB+AHxzcQB+AHd1cQB+AFoAAAAAc3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ae3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AlHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlXNxAH4AiHQAA0FueXNxAH4AjHNxAH4Aj3VxAH4AkgAAAAJzcQB+AJR0AAVzY2FsYXEAfgCbc3EAfgBccQB+AGl1cQB+AGoAAAAAc3EAfgBsAHQAFHNlcnZpY2VzLldlYXRoZXJJbmZvdXEAfgBvAAAAAHEAfgBzdXEAfgB1AAAAAHNxAH4Ad3EAfgB9c3EAfgB3c3EAfgB/c3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VxAH4AWgAAAABzcQB+AHd1cQB+AIYAAAAGc3EAfgCIdAAMU2VyaWFsaXphYmxlc3EAfgCMc3EAfgCPdXEAfgCSAAAAAnNxAH4AlHEAfgCicQB+AJtzcQB+AIhxAH4As3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJRxAH4Al3NxAH4AlHQAAmlvcQB+AJtzcQB+AIh0AAdQcm9kdWN0cQB+ALRzcQB+AIh0AAZFcXVhbHNxAH4AtHNxAH4AiHEAfgCLc3EAfgCMc3EAfgCPdXEAfgCSAAAAA3NxAH4AlHEAfgCXc3EAfgCUcQB+AJlxAH4Am3NxAH4AiHEAfgCdcQB+ALR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhzZXJ2aWNlc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3w7FXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA2Qzpcd29ya3NwYWNlXHdlYlx3ZWItcHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZeYdNx/1TlEz3FfazD8J/p7MLxo=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwgA6FtwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw9ETS33QABm5vdGlmeXNxAH4ADLE9ast0AA5fZGVmYXVsdFByZWZpeHNxAH4ADMRG+Zd0AAR3YWl0c3EAfgAM30jrmnQADSRhc0luc3RhbmNlT2ZzcQB+AAzjVDrydAAGZXF1YWxzc3EAfgAMy5aZOHQADGFzSW5zdGFuY2VPZnNxAH4ADE0811p0AAxzeW5jaHJvbml6ZWRzcQB+AAwSFcOBdAANJGlzSW5zdGFuY2VPZnNxAH4ADHSdBVt0AA1SZXZlcnNlQXNzZXRzc3EAfgAMWb6PqXQACW5vdGlmeUFsbHNxAH4ADLzg+Hd0AAxpc0luc3RhbmNlT2ZzcQB+AAxHW1JcdAAGPGluaXQ+c3EAfgAM3yjK+HQAAj09c3EAfgAMPy76QnQABWNsb25lc3EAfgAMQQHq2HQACHRvU3RyaW5nc3EAfgAMmybwinQAAiE9c3EAfgAMYIvd3XQACGdldENsYXNzc3EAfgAM5Cxd5nQAAm5lc3EAfgAMsfxZM3QACXZlcnNpb25lZHNxAH4ADODjtm10AAJlcXNxAH4ADLJphpJ0ABJSZXZlcnNlQXBwbGljYXRpb25zcQB+AAy7qeMQdAACIyNzcQB+AAyT578udAAIZmluYWxpemVzcQB+AAwdGi74dAAFaW5kZXhzcQB+AAxYrMcZdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAkY29udHJvbGxlcnMuamF2YXNjcmlwdC5SZXZlcnNlQXNzZXRzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBmc3EAfgBhdXEAfgBEAAAAAHNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXNxAH4ARnEAfgBTdXEAfgBUAAAAAHNxAH4AVgB0ACljb250cm9sbGVycy5qYXZhc2NyaXB0LlJldmVyc2VBcHBsaWNhdGlvbnVxAH4AWQAAAABxAH4AXXVxAH4AXwAAAABzcQB+AGFxAH4AZ3NxAH4AYXNxAH4AaXNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cQB+AEQAAAAAc3EAfgBhdXEAfgBwAAAAAnNxAH4AcnEAfgB1c3EAfgB2c3EAfgB5dXEAfgB8AAAAA3NxAH4AfnEAfgCBc3EAfgB+cQB+AINxAH4AhXNxAH4AcnEAfgCHc3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnEAfgCMcQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABZjb250cm9sbGVycy5qYXZhc2NyaXB0c3EAfgCpdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV98OxVxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANkM6XHdvcmtzcGFjZVx3ZWJcd2ViLXByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJqJ+JucMnuuZfJL7GZoSOZgJkKt
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwXwLpYAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwtf+Gf3QABm5vdGlmeXNxAH4ADA1jnhF0AA5fZGVmYXVsdFByZWZpeHNxAH4ADJ7/J4h0AAR3YWl0c3EAfgAMMXdVB3QADSRhc0luc3RhbmNlT2ZzcQB+AAwTDH4odAAGZXF1YWxzc3EAfgAMBETnyXQADGFzSW5zdGFuY2VPZnNxAH4ADP3CRrN0AAxzeW5jaHJvbml6ZWRzcQB+AAwhuZsSdAANJGlzSW5zdGFuY2VPZnNxAH4ADFCG/gl0AA1SZXZlcnNlQXNzZXRzc3EAfgAMHFuGMXQACW5vdGlmeUFsbHNxAH4ADOgbsvl0AAxpc0luc3RhbmNlT2ZzcQB+AAzGvC8ndAAGPGluaXQ+c3EAfgAM0yrghnQAAj09c3EAfgAM/jJginQABWNsb25lc3EAfgAMqjEQSHQACHRvU3RyaW5nc3EAfgAMhu8crXQAAiE9c3EAfgAMpjjoAnQACGdldENsYXNzc3EAfgAMycHR0HQAAm5lc3EAfgAMp7RxUHQACXZlcnNpb25lZHNxAH4ADKDWVe10AAJlcXNxAH4ADBzSEEB0ABJSZXZlcnNlQXBwbGljYXRpb25zcQB+AAynPKyCdAACIyNzcQB+AAweE62MdAAIZmluYWxpemVzcQB+AAxl1j28dAAFaW5kZXhzcQB+AAzFuVEgdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAZY29udHJvbGxlcnMuUmV2ZXJzZUFzc2V0c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBhc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AZnNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cQB+AEQAAAAAc3EAfgBhdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBlc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB+dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/c3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AIVzcQB+AEZxAH4AU3VxAH4AVAAAAABzcQB+AFYAdAAeY29udHJvbGxlcnMuUmV2ZXJzZUFwcGxpY2F0aW9udXEAfgBZAAAAAHEAfgBddXEAfgBfAAAAAHNxAH4AYXEAfgBnc3EAfgBhc3EAfgBpc3EAfgBhdXEAfgBEAAAAAHNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cQB+AHAAAAACc3EAfgBycQB+AHVzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+cQB+AIFzcQB+AH5xAH4Ag3EAfgCFc3EAfgBycQB+AIdzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+cQB+AIxxAH4AhXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFffDsVcXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADZDOlx3b3Jrc3BhY2Vcd2ViXHdlYi1wcm9qZWN0XHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ9PgQTiJ30Cluc5FsaOz8ov2o1Jg==
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFffDsVcXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdAA2Qzpcd29ya3NwYWNlXHdlYlx3ZWItcHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUCs/528vghqVe1gtvqX93uvgNQhc=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtb2IywAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTYH5tnQABm5vdGlmeXNxAH4ADGWb3lJ0AApiYWRSZXF1ZXN0c3EAfgAMgJgH0nQABHdhaXRzcQB+AAxy9pV9dAANJGFzSW5zdGFuY2VPZnNxAH4ADEk2S3d0AAZyb3V0ZXNzcQB+AAx5b7vQdAANY3JlYXRlSW52b2tlcnNxAH4ADDoKbR50AAZlcXVhbHNzcQB+AAxUx9/vdAAGcHJlZml4c3EAfgAM7rEG3nQADGFzSW5zdGFuY2VPZnNxAH4ADAJP80p0AA1kb2N1bWVudGF0aW9uc3EAfgAMyAHA4HQADHN5bmNocm9uaXplZHNxAH4ADNpRt4V0AA0kaXNJbnN0YW5jZU9mc3EAfgAMQ6hwr3QACmhhbmRsZXJGb3JzcQB+AAzxTVAydAAJbm90aWZ5QWxsc3EAfgAMyGaE1HQADGlzSW5zdGFuY2VPZnNxAH4ADFEejfd0AAZhc0phdmFzcQB+AAzOS0WodAAMZXJyb3JIYW5kbGVyc3EAfgAMY3lzXHQABjxpbml0PnNxAH4ADFroZ7d0AAI9PXNxAH4ADDHdx6x0AAVjbG9uZXNxAH4ADOBEvnx0AAYkaW5pdCRzcQB+AAwUiwjJdAAGUm91dGVzc3EAfgAMt0jr8HQACHRvU3RyaW5nc3EAfgAMyb8nyHQAAiE9c3EAfgAMylHjK3QACWZha2VWYWx1ZXNxAH4ADHSi/xh0AAhnZXRDbGFzc3NxAH4ADDJgSaR0AAJuZXNxAH4ADAVx8Sx0AAp3aXRoUHJlZml4c3EAfgAMHZawrnQABGNhbGxzcQB+AAz3VL9+dAACZXFzcQB+AAz3Ur0QdAACIyNzcQB+AAxtA/WddAAIZmluYWxpemVzcQB+AAyFs1FvdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBZeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAANcm91dGVyLlJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAE2phdmF4LmluamVjdC5JbmplY3RzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBZTAAJaW5oZXJpdGVkcQB+AFlMAAdwYXJlbnRzcQB+AFl4cQB+AHdzcQB+AHJ1cQB+AFQAAAAAc3EAfgBydXEAfgBUAAAAAHNxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdnQAD0dlbmVyYXRlZFJvdXRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4Aj3QABGNvcmVzcQB+AI90AAdyb3V0aW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJBzcQB+AIN0AAZSb3V0ZXJzcQB+AIdzcQB+AIp1cQB+AI0AAAAEc3EAfgCPdAAEcGxheXNxAH4Aj3QAA2FwaXNxAH4Aj3QAB3JvdXRpbmdxAH4AmHNxAH4Ag3QABk9iamVjdHNxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCYc3EAfgCDdAADQW55c3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3QABXNjYWxhcQB+AJh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV98OxVxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANkM6XHdvcmtzcGFjZVx3ZWJcd2ViLXByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFO5EFktoOsol6SjiEALBmTkFplVD
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwyXv9DQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3SNaY3QABm5vdGlmeXNxAH4ADDqZ8+l0AAxieU5hbWVQcmVmaXhzcQB+AAwaoC4qdAAEd2FpdHNxAH4ADCKKFB50AA0kYXNJbnN0YW5jZU9mc3EAfgAMaULSCHQABmVxdWFsc3NxAH4ADHOOIFd0AAZwcmVmaXhzcQB+AAyh7h6fdAAMYXNJbnN0YW5jZU9mc3EAfgAMSdNNC3QADFJvdXRlc1ByZWZpeHNxAH4ADMFVI+50AAxzeW5jaHJvbml6ZWRzcQB+AAzc9bSjdAANJGlzSW5zdGFuY2VPZnNxAH4ADL28U7F0AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMxTNSy3QABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMFWcPZ3QACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADAff5nh0AAhmaW5hbGl6ZXNxAH4ADIIAnnp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AYnNxAH4AXXVxAH4AQAAAAABzcQB+AF11cQB+AEAAAAAAc3EAfgBddXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB6dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7c3EAfgBudAADQW55c3EAfgByc3EAfgB1dXEAfgB4AAAAAnNxAH4AenQABXNjYWxhcQB+AIF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV98OxVxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANkM6XHdvcmtzcGFjZVx3ZWJcd2ViLXByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFk9D4sculQBv3LPTou77e56ISmZ
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxJ2ScAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwNVSgq3QABm5vdGlmeXNxAH4ADNXoUtZ0AAZmb3JtYXRzcQB+AAxo1BiadAAEd2FpdHNxAH4ADFIBw8p0AA0kYXNJbnN0YW5jZU9mc3EAfgAMUNkVknQADHByb2R1Y3RBcml0eXNxAH4ADGrlpqx0AAZlcXVhbHNzcQB+AAz4YTDsdAAMYXNJbnN0YW5jZU9mc3EAfgAMcbITgnQAAWZzcQB+AAwvpcnIdAAMc3luY2hyb25pemVkc3EAfgAMaZaFyHQACV9kaXNwbGF5X3NxAH4ADEtVoHB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMItkgYHQAA3JlZnNxAH4ADDnYA+F0AAhjYW5FcXVhbHNxAH4ADHuYsJV0AA1wcm9kdWN0UHJlZml4c3EAfgAM7YhdOXQACW5vdGlmeUFsbHNxAH4ADGv02DF0AAxpc0luc3RhbmNlT2ZzcQB+AAwg7fq5dAAFYXBwbHlzcQB+AAwc0o66dAACPT1zcQB+AAxvd+FcdAAFY2xvbmVzcQB+AAyDwoOjdAAGJGluaXQkc3EAfgAMbzLXtXQABGNvcHlzcQB+AAwaY2oIdAAIdG9TdHJpbmdzcQB+AAyFbOdVdAACIT1zcQB+AAxEyrvwdAAIZ2V0Q2xhc3NzcQB+AAxGhC/8dAAOY29weSRkZWZhdWx0JDFzcQB+AAy9Q1yadAAGcmVuZGVyc3EAfgAMnyMNjHQAAm5lc3EAfgAM+/2EdXQAAmVxc3EAfgAMiKJzlHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADL/EnzZ0AAIjI3NxAH4ADJLr+590AAhmaW5hbGl6ZXNxAH4ADNNUubl0AAVpbmRleHNxAH4ADGKrc2x0AA5wcm9kdWN0RWxlbWVudHNxAH4ADOpsgOt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABB2aWV3cy5odG1sLmluZGV4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAhzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Ad3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgCFeHEAfgB3dAAJVGVtcGxhdGUzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB3c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgCTdAAFdHdpcmxzcQB+AJN0AANhcGlzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlHVxAH4AggAAAARzcQB+AIh0AAdTdW5JbmZvc3EAfgCLc3EAfgCOdXEAfgCRAAAAAnNxAH4Ak3QACHNlcnZpY2VzcQB+AJxzcQB+AIh0AAtXZWF0aGVySW5mb3EAfgCgc3EAfgCIdAADSW50c3EAfgCLc3EAfgCOdXEAfgCRAAAAAnNxAH4Ak3QABXNjYWxhcQB+AJxzcQB+AIh0AARIdG1scQB+AI1zcQB+AIRzcQB+AIh0ABFCYXNlU2NhbGFUZW1wbGF0ZXEAfgCNdXEAfgCCAAAAAnEAfgCuc3EAfgCEc3EAfgCIdAAGRm9ybWF0cQB+AI11cQB+AIIAAAABcQB+AK5zcQB+AIh0AAxTZXJpYWxpemFibGVxAH4AqXNxAH4AiHEAfgC5c3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3QABGphdmFzcQB+AJN0AAJpb3EAfgCcc3EAfgCIdAAHUHJvZHVjdHEAfgCpc3EAfgCIdAAGRXF1YWxzcQB+AKlzcQB+AIh0AAZPYmplY3RzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTcQB+AL9zcQB+AJN0AARsYW5ncQB+AJxzcQB+AIh0AANBbnlxAH4AqXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXZpZXdzc3EAfgDSdAAKdmlld3MuaHRtbHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3w7FXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA2Qzpcd29ya3NwYWNlXHdlYlx3ZWItcHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU/vonSm+BCXa2pWvUWg6/HcGov4Q=
+external apis:
+0 items
+source infos:
+12 items
+C:\workspace\web\web-project\app\actors\StatsActor.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\app\AppLoader.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\app\controllers\Application.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\app\services\StatsFilter.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\app\services\SunService.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\app\services\WeatherService.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\controllers\routes.java -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\Routes.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\routes\main\router\RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+C:\workspace\web\web-project\target\scala-2.12\twirl\main\views\html\index.template.scala -> 
+AAAAAAAAAAA=
+compilations:
+13 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3MnY9h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3aynFt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3ayrjZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3a6P5N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3bE6FN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3baQKN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3baSLZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3bjrVl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3boeaF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3bs2Gp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3b0nxt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3b0rcV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XHdvcmtzcGFjZVx3ZWJccGxheS1zY2FsYS13ZWItc3RhcnRlclx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX3w7FXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANkM6XHdvcmtzcGFjZVx3ZWJcd2ViLXByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS8=
