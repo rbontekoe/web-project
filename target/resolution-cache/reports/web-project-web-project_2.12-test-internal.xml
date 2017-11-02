@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171102111502"/>
+		date="20171102121013"/>
 	<dependencies>
 		<module organisation="com.softwaremill.macwire" name="macros_2.12">
 			<revision name="2.3.0" status="release" pubdate="20170202125508" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.softwaremill.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
@@ -1690,6 +1690,13 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="C:\Users\rbont\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.rbontekoe" name="surveillance">
+			<revision name="0.0.1" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="web-project" name="web-project_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.1" rev-constraint-default="0.0.1" rev-constraint-dynamic="0.0.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
