@@ -18,6 +18,8 @@ import services.StatsFilter
 import actors.StatsActor
 import actors.StatsActor.Ping
 import services.SensorService
+import main.scala.infrastructure.SensorRepositoryAdapter
+import main.scala.infrastructure.ObjectRecognationAdapter
 
 class AppApplicationLoader extends ApplicationLoader {
   def load(context: Context) = {
@@ -36,6 +38,8 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
   lazy val sunService = wire[SunService]
   lazy val weatherService = wire[WeatherService]
   lazy val sensorService = wire[SensorService]
+  lazy val sensorRepositoryAdapter = wire[SensorRepositoryAdapter]
+  lazy val objectRecognationAdapter = wire[ObjectRecognationAdapter]
   
   lazy val statsFilter: Filter = wire[StatsFilter]
   override lazy val httpFilters = Seq(statsFilter)
