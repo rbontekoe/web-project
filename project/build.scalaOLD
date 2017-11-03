@@ -1,0 +1,8 @@
+import sbt._
+
+object MyBuild extends Build {
+
+  lazy val root = Project("root", file(".")) dependsOn(surveillance)
+  lazy val surveillance = RootProject(uri("git://github.com/rbontekoe/surveillance.git"))
+
+}

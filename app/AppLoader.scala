@@ -17,6 +17,7 @@ import akka.actor.Props
 import services.StatsFilter
 import actors.StatsActor
 import actors.StatsActor.Ping
+import services.SensorService
 
 class AppApplicationLoader extends ApplicationLoader {
   def load(context: Context) = {
@@ -34,6 +35,7 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
   
   lazy val sunService = wire[SunService]
   lazy val weatherService = wire[WeatherService]
+  lazy val sensorService = wire[SensorService]
   
   lazy val statsFilter: Filter = wire[StatsFilter]
   override lazy val httpFilters = Seq(statsFilter)

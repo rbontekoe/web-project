@@ -1,10 +1,10 @@
-@(sunInfo:  services.SunInfo, weatherInfo: services.WeatherInfo, requests: Int)
+@(sunInfo:  services.SunInfo, weatherInfo: services.WeatherInfo, requests: Int, roomInfo: services.RoomInfo)
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Home</title>
         <link rel="shortcut icon" type="image/png"
-           href="@routes.Assets.versioned("images/favicon.png")">
+        href="@routes.Assets.versioned("images/favicon.png")">
     </head>
 
     <body>
@@ -14,6 +14,11 @@
         <div>Current temperature: @weatherInfo.temperature</div>
         <div>Current pressure: @weatherInfo.pressure</div>
         <div>Current humidity: @weatherInfo.humidity</div>
+        
         <div>Requests: @requests</div>
+        <div><p>==== Room info ===</p></div
+        <div>Name: @roomInfo.name</div>
+        <div>Room number: @roomInfo.roomNumber</div>
+        <div>Room status: @roomInfo.status</div>
     </body>
 </html>
