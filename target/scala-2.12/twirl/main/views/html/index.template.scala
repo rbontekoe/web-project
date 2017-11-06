@@ -36,9 +36,9 @@ Seq[Any](format.raw/*1.109*/("""
         <h1>Hello Play</h1>
         <div>Sunrise time: """),_display_(/*12.29*/sunInfo/*12.36*/.sunrise),format.raw/*12.44*/("""</div> 
         <div>Sunset time: """),_display_(/*13.28*/sunInfo/*13.35*/.sunset),format.raw/*13.42*/("""</div>
-        <div>Current temperature: """),_display_(/*14.36*/weatherInfo/*14.47*/.temperature),format.raw/*14.59*/("""</div>
-        <div>Current pressure: """),_display_(/*15.33*/weatherInfo/*15.44*/.pressure),format.raw/*15.53*/("""</div>
-        <div>Current humidity: """),_display_(/*16.33*/weatherInfo/*16.44*/.humidity),format.raw/*16.53*/("""</div>
+        <div>Temperature: """),_display_(/*14.28*/weatherInfo/*14.39*/.temperature),format.raw/*14.51*/("""</div>
+        <div>Atmospheric pressure: """),_display_(/*15.37*/weatherInfo/*15.48*/.pressure),format.raw/*15.57*/("""</div>
+        <div>Humidity: """),_display_(/*16.25*/weatherInfo/*16.36*/.humidity),format.raw/*16.45*/("""</div>
         
         <div>Requests: """),_display_(/*18.25*/requests),format.raw/*18.33*/("""</div>
         <div><p>==== Room info ===</p></div
@@ -63,10 +63,10 @@ Seq[Any](format.raw/*1.109*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 03 11:56:02 CET 2017
+                  DATE: Sun Nov 05 12:42:10 CET 2017
                   SOURCE: C:/workspace/web/web-project/app/views/index.scala.html
-                  HASH: 46a82f6622f12d4ea0d4ec412382037807119f32
-                  MATRIX: 782->1|985->108|1013->110|1182->253|1196->259|1255->298|1369->385|1385->392|1414->400|1477->436|1493->443|1521->450|1591->493|1611->504|1644->516|1711->556|1731->567|1761->576|1828->616|1848->627|1878->636|1947->678|1976->686|2076->759|2093->767|2119->772|2181->807|2198->815|2230->826|2292->861|2309->869|2337->876
+                  HASH: a474618f2702a1cf9c89e13067b7c747f8221263
+                  MATRIX: 782->1|985->108|1013->110|1182->253|1196->259|1255->298|1369->385|1385->392|1414->400|1477->436|1493->443|1521->450|1583->485|1603->496|1636->508|1707->552|1727->563|1757->572|1816->604|1836->615|1866->624|1935->666|1964->674|2064->747|2081->755|2107->760|2169->795|2186->803|2218->814|2280->849|2297->857|2325->864
                   LINES: 21->1|26->1|27->2|32->7|32->7|32->7|37->12|37->12|37->12|38->13|38->13|38->13|39->14|39->14|39->14|40->15|40->15|40->15|41->16|41->16|41->16|43->18|43->18|45->20|45->20|45->20|46->21|46->21|46->21|47->22|47->22|47->22
                   -- GENERATED --
               */
