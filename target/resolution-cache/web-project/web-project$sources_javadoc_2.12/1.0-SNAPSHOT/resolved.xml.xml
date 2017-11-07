@@ -4,7 +4,7 @@
 		module="web-project$sources_javadoc_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171103133831"
+		publication="20171107210747"
 	/>
 	<configurations>
 		<conf name="universal" visibility="public" description=""/>

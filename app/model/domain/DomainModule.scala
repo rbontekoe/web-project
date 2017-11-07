@@ -1,4 +1,4 @@
-package main.scala.domain
+package model.domain
 
 trait ObjectRecognationApi {
   def analyseImage(image: SensorImage): List[Person]
@@ -11,13 +11,17 @@ trait SensorRepositoryApi {
 case class SensorId(value: Int) extends AnyVal
 case class RoomId(value: Int) extends AnyVal
 case class PersonId(value: Int) extends AnyVal
+case class ApartmentId(value: Int) extends AnyVal
 
 case class Person(personId: PersonId, name: String)
 case class SensorImage(sensorId: SensorId, image: Array[Byte])
+case class Room(roomId: RoomId, roomType: RoomType)
 
-trait Room
-case class EmptyRoom(roomId: RoomId) extends Room
-case class NonEmptyRoom(roomId: RoomId, sensorImage: SensorImage, alarmType: AlarmType, persons: List[Person]) extends Room
+case class Apartment(apartmentId: ApartmentId, person: Person, rooms: List[Room])
+
+trait RoomState
+case class EmptyRoom(roomId: RoomId) extends RoomState
+case class NonEmptyRoom(roomId: RoomId, sensorImage: SensorImage, alarmType: AlarmType, persons: List[Person]) extends RoomState
 
 trait AlarmType
 object AlarmType {
@@ -26,3 +30,13 @@ object AlarmType {
   case object Severe extends AlarmType
   case object Error extends AlarmType
 }
+
+trait RoomType
+object RoomType {
+  case object Kitchen extends RoomType
+  case object Bathroom extends RoomType
+  case object Bedroom extends RoomType
+  case object Livingroom extends RoomType
+  case object Balcony extends RoomType
+}
+

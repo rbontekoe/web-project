@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/workspace/web/web-project/conf/routes
-// @DATE:Fri Nov 03 10:44:30 CET 2017
+// @DATE:Tue Nov 07 17:21:30 CET 2017
 
 package controllers;
 

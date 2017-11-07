@@ -1,26 +1,29 @@
-package main.scala.api
+package model.api
 
-import main.scala.domain.AlarmType
-import main.scala.domain.EmptyRoom
-import main.scala.domain.NonEmptyRoom
-import main.scala.domain.ObjectRecognationApi
-import main.scala.domain.Room
-import main.scala.domain.RoomId
-import main.scala.domain.SensorId
-import main.scala.domain.SensorImage
-import main.scala.domain.SensorRepositoryApi
+import model.domain.AlarmType
+import model.domain.EmptyRoom
+import model.domain.NonEmptyRoom
+import model.domain.ObjectRecognationApi
+import model.domain.RoomId
+import model.domain.RoomState
+import model.domain.SensorId
+import model.domain.SensorImage
+import model.domain.SensorRepositoryApi
 import model.java.TestImage
 
 
 trait RoomStatusApi {
-  def processSensorData(sensorId: SensorId, image: SensorImage): Room
+  def processSensorData(sensorId: SensorId, image: SensorImage): RoomState
 }
 
 class RoomStatus(sensor: SensorRepositoryApi, objectRecognation: ObjectRecognationApi) extends RoomStatusApi {
-  def processSensorData(sensorId: SensorId, image: SensorImage): Room = {
+  
+  def processSensorData(sensorId: SensorId, image: SensorImage): RoomState = {
+    
     val persons = objectRecognation.analyseImage(null)
     val roomNumber = new RoomId(sensor.findRoomNbr(sensorId.value))
-
+    
+    // Aanalyse image
     if (compare(image))
       EmptyRoom(roomNumber)
     else {
@@ -31,7 +34,7 @@ class RoomStatus(sensor: SensorRepositoryApi, objectRecognation: ObjectRecognati
   private def compare(imageNew: SensorImage): Boolean = {
     val threshold = 0.1
     // save imageNew
-    // compare images (Java)
+    // compare images (Java) - simulation
     val test: Double = (new TestImage).compareImages("http://www.appligate.nl/images/xpages_bullet.jpg")
     test > threshold 
     }

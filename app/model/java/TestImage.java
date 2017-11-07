@@ -27,15 +27,6 @@ public class TestImage {
 		return result;
 	}
 
-	/*
-	public static void test() throws IOException {
-		URL url = new URL("http://www.appligate.nl/images/xpages_bullet.jpg");
-		BufferedImage img = ImageIO.read(url);
-		Image thumbnail = img.getScaledInstance(8, 8, Image.SCALE_AREA_AVERAGING);
-		System.out.println(thumbnail.getClass());
-	}
-	*/
-
 	public double compare(BufferedImage img1, BufferedImage img2) {
 		int width1 = img1.getWidth();
 		int width2 = img2.getWidth();

@@ -9,7 +9,7 @@ import play.api.routing.Router
 
 import _root_.controllers.AssetsComponents
 import play.filters.HttpFiltersComponents
-import router.Routes
+
 import services.WeatherService
 import services.SunService
 import scala.concurrent.Future
@@ -18,8 +18,12 @@ import services.StatsFilter
 import actors.StatsActor
 import actors.StatsActor.Ping
 import services.SensorService
-import main.scala.infrastructure.SensorRepositoryAdapter
-import main.scala.infrastructure.ObjectRecognationAdapter
+import model.infrastructure.SensorRepositoryAdapter
+import model.infrastructure.ObjectRecognationAdapter
+import model.infrastructure.SensorRepositoryAdapter
+import model.infrastructure.ObjectRecognationAdapter
+import router.Routes
+
 
 class AppApplicationLoader extends ApplicationLoader {
   def load(context: Context) = {
@@ -57,7 +61,7 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
   lazy val statsActor = actorSystem.actorOf(Props(wire[StatsActor]), StatsActor.name)
   
   val onStart = {
-    Logger.info("The app is abput to start")
+    Logger.info("The app is about to start")
     statsActor ! Ping
   }
 }
