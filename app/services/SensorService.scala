@@ -30,9 +30,9 @@ class SensorService(wsClient: WSClient) {
         case NonEmptyRoom(id, _, alarmType, persons) => {
           val apartment = ApartmentRepository.findAppartmentByRoomId(id)
           val test = apartment.rooms.filter(p => p.roomId.value == id.value)(0)
-          RoomInfo(persons.head.name, alarmType.toString, id.value.toString, 
+          RoomInfo(persons.head.name.value, alarmType.toString, id.value.toString, 
               test.roomType.toString, apartment.apartmentId.value.toString(), 
-              apartment.person.name)
+              apartment.person.name.value)
         }
         case EmptyRoom(roomId) =>
           RoomInfo("", "", roomId.value.toString(), "", "", "")

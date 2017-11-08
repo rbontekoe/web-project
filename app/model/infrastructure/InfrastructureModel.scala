@@ -7,9 +7,10 @@ import model.domain.PersonId
 import model.domain.RoomId
 import model.domain.SensorImage
 import model.domain.SensorRepositoryApi
+import model.domain.PersonName
 
 /*
- * Object Recognation Adapter
+ * ObjectRecognationAdapter
  */
 trait RestApi {
   def analyse(image: SensorImage): List[Person]
@@ -18,7 +19,7 @@ trait RestApi {
 class ObjectRecognationAdapter extends ObjectRecognationApi with RestApi {
   def analyseImage(image: SensorImage): List[Person] = analyse(image: SensorImage)
   def analyse(image: SensorImage): List[Person] =
-    List(new Person(new PersonId(210), "Mrs Neeltje"))
+    List(new Person(new PersonId(210), PersonName("Mrs Neeltje")))
   /*
      * For now: test purpose
      * For future projects: Face recognition
@@ -27,18 +28,19 @@ class ObjectRecognationAdapter extends ObjectRecognationApi with RestApi {
 }
 
 /*
- * Sensor Repository Adapter
+ * SensorRepositoryAdapter
  */
 trait RoomLookupApi {
   def findRoomNumber(sensorId: Int): Int
 }
-
 class SensorRepositoryAdapter extends SensorRepositoryApi with RoomLookupApi {
   def findRoomNbr(sensorId: Int): Int = findRoomNumber(sensorId: Int)
   def findRoomNumber(sensorId: Int): Int = SensorRepository.findRoom(sensorId)
 }
 
-// Sensor repository (+ test data)
+/*
+ * Sensor repository (+ test data)
+ */
 trait SensorRepository {
   def findRoom(sensorId: Int): Int
 }
@@ -49,7 +51,9 @@ object SensorRepository {
     map(sensorId)
 }
 
-// Apartment repository
+/*
+ * Apartment repository
+ */
 trait ApartmentRepository {
   def findAppartmmentByRoomId(roomId: RoomId): Apartment
 }

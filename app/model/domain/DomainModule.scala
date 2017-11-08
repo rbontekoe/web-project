@@ -12,8 +12,9 @@ case class SensorId(value: Int) extends AnyVal
 case class RoomId(value: Int) extends AnyVal
 case class PersonId(value: Int) extends AnyVal
 case class ApartmentId(value: Int) extends AnyVal
+case class PersonName(value: String) extends AnyVal
 
-case class Person(personId: PersonId, name: String)
+case class Person(personId: PersonId, name: PersonName)
 case class SensorImage(sensorId: SensorId, image: Array[Byte])
 case class Room(roomId: RoomId, roomType: RoomType)
 
