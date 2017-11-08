@@ -11,7 +11,7 @@ import model.domain.RoomType
 
 object ApartmentData {
   val ap1 = Apartment(
-      ApartmentId(1), 
+      ApartmentId(101), 
       Person(PersonId(1), "Mrs Neetje"),
       List(
         Room(RoomId(15), RoomType.Livingroom),
@@ -20,8 +20,8 @@ object ApartmentData {
       )
     )
   val ap2 = Apartment(
-      ApartmentId(2), 
-      Person(PersonId(1), "Mrs Mary"),
+      ApartmentId(102), 
+      Person(PersonId(2), "Mrs Mary"),
       List(
         Room(RoomId(18), RoomType.Livingroom),
         Room(RoomId(19), RoomType.Bathroom),
@@ -29,8 +29,8 @@ object ApartmentData {
       )
     )
   val ap3 = Apartment(
-      ApartmentId(3), 
-      Person(PersonId(1), "Mr Harry"),
+      ApartmentId(103), 
+      Person(PersonId(3), "Mr Harry"),
       List(
         Room(RoomId(21), RoomType.Livingroom),
         Room(RoomId(22), RoomType.Bathroom),

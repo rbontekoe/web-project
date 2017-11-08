@@ -24,7 +24,7 @@ class SensorService(wsClient: WSClient) {
 
       // Gather actual room data
       val roomStatus = new RoomStatus(sensorRepositoryAdapter, objectRecognationAdapter)
-      val room: RoomState = roomStatus.processSensorData(new SensorId(10102), null)
+      val room: RoomState = roomStatus.processSensorData(new SensorId(101001), null)
 
       room match {
         case NonEmptyRoom(id, _, alarmType, persons) => {
