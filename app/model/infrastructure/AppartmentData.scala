@@ -12,7 +12,7 @@ import model.domain.RoomType
 object ApartmentData {
   val ap1 = Apartment(
       ApartmentId(101), 
-      Person(PersonId(1), "Mrs Neetje"),
+      Person(PersonId(1), "Mrs Neeltje"),
       List(
         Room(RoomId(15), RoomType.Livingroom),
         Room(RoomId(16), RoomType.Bathroom),
