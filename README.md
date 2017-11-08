@@ -18,18 +18,29 @@ The central observing system will be built with Scala and process the images usi
 Hello Play
 
 Sunrise time: 07:45:44
+
 Sunset time: 16:58:30
+
 Temperature: 26.9
+
 Atmospheric pressure: 1024.7
+
 Humidity: 37.4
+
 Requests: 3
+
 
 ==== Room info ===
 
+
 Detected person: Mrs Neeltje
+
 Apartment: 101
+
 Owner: Mrs Neetje
+
 Room: 16 - Bathroom
+
 Room status: Warning
 
 ## Version
