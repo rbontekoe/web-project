@@ -1,0 +1,5 @@
+I have renamed the unit tests to .scalaOLD because of a compiler error due to SBT. 
+Rename the file extensions to .scala for testing purposes.
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test" worked fine for Eclipse, but not
+for SBT.

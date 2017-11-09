@@ -1,0 +1,20 @@
+package model.test
+
+import org.scalatest.FunSuite
+import model.infrastructure._
+import model.api._
+import model.domain._
+import model.infrastructure.SensorRepositoryAdapter
+import model.infrastructure.ObjectRecognationAdapter
+
+class ApiModelTest extends FunSuite {
+  
+  test("Room should be a NonEmptyRoom") {
+    assert {
+        val testApp = new RoomStatus(new SensorRepositoryAdapter, new ObjectRecognationAdapter)
+        val room: RoomState = testApp.processSensorData(new SensorId(10100), null)
+        room == NonEmptyRoom(RoomId(15), null, AlarmType.Warning, List(Person(PersonId(210), PersonName("Mrs Neeltje"))))
+    }
+  }
+  
+}

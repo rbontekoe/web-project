@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/workspace/web/web-project/conf/routes
-// @DATE:Tue Nov 07 17:21:30 CET 2017
+// @DATE:Thu Nov 09 12:35:26 CET 2017
 
 
 package router {

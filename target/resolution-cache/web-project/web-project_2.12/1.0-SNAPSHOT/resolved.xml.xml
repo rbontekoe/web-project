@@ -4,7 +4,7 @@
 		module="web-project_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171107172130"
+		publication="20171109123509"
 	>
 		<description>
 		web-project
@@ -53,5 +53,6 @@
 		<dependency org="com.typesafe.play" name="play-ehcache_2.12" rev="2.6.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ahc-ws_2.12" rev="2.6.1" conf="compile->default(compile)"/>
 		<dependency org="com.softwaremill.macwire" name="macros_2.12" rev="2.3.0" conf="provided->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -12,4 +12,7 @@ libraryDependencies ++= Seq(
   "com.softwaremill.macwire" %% "macros" % "2.3.0" % "provided"
 )
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
+

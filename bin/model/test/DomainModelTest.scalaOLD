@@ -1,0 +1,40 @@
+package model.test
+
+import org.scalatest.FunSuite
+import model.domain._
+
+
+class DomainModelTest extends FunSuite {
+
+  test("RoomType.BathRoom should be Bathroom") {
+    assert(RoomType.Bathroom.toString == "Bathroom")
+  }
+  
+  test("Person should be Neeltje") {
+    assert(Person(PersonId(10), PersonName("Mrs Neeltje")).name == PersonName("Mrs Neeltje"))
+  }
+  
+  test("PersonId should be positive") {
+    assert(Person(PersonId(10), PersonName("Mrs Neeltje")).personId.value > 0)
+  }
+  
+  test("AlarmType.Warning should be Warning") {
+    assert(AlarmType.Warning.toString == "Warning")
+  }
+  
+  test("AlarmType.Severe should be Severe") {
+    assert(AlarmType.Severe.toString == "Severe")
+  }
+  
+  test("AlarmType.Error should be Error") {
+    assert(AlarmType.Error.toString == "Error")
+  }
+
+  
+
+  //test("Invoking head on an empty Set should produce NoSuchElementException") {
+    //assertThrows[NoSuchElementException] {
+      //RoomType.Livingroom.toString == "LivingRoom"
+    //}
+  //}
+}

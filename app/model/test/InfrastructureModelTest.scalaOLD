@@ -1,0 +1,34 @@
+package model.test
+
+import org.scalatest.FunSuite
+import model.api._
+import model.domain._
+import model.infrastructure._
+import model.repositories._
+import services._
+
+
+class InfrastructureModelTest() extends FunSuite {
+  
+  test("RoomInfo") {
+    assert{
+        val roomStatus = new RoomStatus(new SensorRepositoryAdapter, new ObjectRecognationAdapter)
+        val room: RoomState = roomStatus.processSensorData(new SensorId(101001), null)
+        
+        val result = room match {
+        case NonEmptyRoom(id, _, alarmType, persons) => {
+          val apartment = ApartmentRepository.findAppartmentByRoomId(id)
+          val test = apartment.rooms.filter(p => p.roomId.value == id.value)(0)
+          RoomInfo(persons.head.name.value, alarmType.toString, id.value.toString, 
+              test.roomType.toString, apartment.apartmentId.value.toString(), 
+              apartment.person.name.value)
+          }
+        case EmptyRoom(roomId) =>
+          RoomInfo("", "", roomId.value.toString(), "", "", "")
+      	}
+        
+        result == RoomInfo("Mrs Neeltje", "Warning", "16", "Bathroom" ,"101" , "Mrs Neeltje")   
+    }
+  }
+  
+}

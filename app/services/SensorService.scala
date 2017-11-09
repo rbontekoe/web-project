@@ -10,8 +10,8 @@ import model.domain.RoomState
 import model.domain.SensorId
 import model.infrastructure.ObjectRecognationAdapter
 import model.infrastructure.SensorRepositoryAdapter
+import model.repositories.ApartmentRepository
 import play.api.libs.ws.WSClient
-import model.infrastructure.ApartmentRepository
 
 class SensorService(wsClient: WSClient) {
 

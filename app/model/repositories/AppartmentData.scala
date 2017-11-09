@@ -1,4 +1,4 @@
-package model.infrastructure
+package model.repositories
 
 import model.domain.Apartment
 import model.domain.ApartmentId

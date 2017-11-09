@@ -16,21 +16,6 @@ case class PersonName(value: String) extends AnyVal
 
 case class Person(personId: PersonId, name: PersonName)
 case class SensorImage(sensorId: SensorId, image: Array[Byte])
-case class Room(roomId: RoomId, roomType: RoomType)
-
-case class Apartment(apartmentId: ApartmentId, person: Person, rooms: List[Room])
-
-trait RoomState
-case class EmptyRoom(roomId: RoomId) extends RoomState
-case class NonEmptyRoom(roomId: RoomId, sensorImage: SensorImage, alarmType: AlarmType, persons: List[Person]) extends RoomState
-
-trait AlarmType
-object AlarmType {
-  case object Info extends AlarmType
-  case object Warning extends AlarmType
-  case object Severe extends AlarmType
-  case object Error extends AlarmType
-}
 
 trait RoomType
 object RoomType {
@@ -41,3 +26,17 @@ object RoomType {
   case object Balcony extends RoomType
 }
 
+case class Room(roomId: RoomId, roomType: RoomType)
+case class Apartment(apartmentId: ApartmentId, person: Person, rooms: List[Room])
+
+trait AlarmType
+object AlarmType {
+  case object Info extends AlarmType
+  case object Warning extends AlarmType
+  case object Severe extends AlarmType
+  case object Error extends AlarmType
+}
+
+trait RoomState
+case class EmptyRoom(roomId: RoomId) extends RoomState
+case class NonEmptyRoom(roomId: RoomId, sensorImage: SensorImage, alarmType: AlarmType, persons: List[Person]) extends RoomState

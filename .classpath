@@ -476,6 +476,16 @@
       <attribute name="javadoc_location" value="jar:file:C:\Users\rbont\.ivy2\cache\org.seleniumhq.selenium\selenium-firefox-driver\docs\selenium-firefox-driver-3.4.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
+  <classpathentry sourcepath="C:\Users\rbont\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.4-sources.jar" kind="lib" path="C:\Users\rbont\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\rbont\.ivy2\cache\org.scalatest\scalatest_2.12\docs\scalatest_2.12-3.0.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\rbont\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.4-sources.jar" kind="lib" path="C:\Users\rbont\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\rbont\.ivy2\cache\org.scalactic\scalactic_2.12\docs\scalactic_2.12-3.0.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="lib" path="C:\Users\rbont\.ivy2\cache\com.softwaremill.macwire\macros_2.12\jars\macros_2.12-2.3.0.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
